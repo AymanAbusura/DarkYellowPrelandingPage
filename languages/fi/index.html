@@ -1,0 +1,993 @@
+<!DOCTYPE html><html lang="fi" ><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PrimeAurora™ | Virallinen vuoden 2024 päivitys</title>
+<meta name="description" content="Sijoita kryptojen villiin rajaseutuun ja käytä kaikkia tarvitsemiasi työkaluja kaupankäyntiin">
+<meta name="keywords" content="">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+<link href= "../css.css" rel="stylesheet">
+<link rel="stylesheet" href="../intlTelInput.css">
+
+<link rel="stylesheet" href="../style-min.css">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+
+</head>
+<body>
+<div class="wrapper">
+<div class="bg">
+<header class="header">
+<div class="container flex-bl">
+<a href="/" class="logo"> <img src="../logo.svg" alt=""></a>
+<div class="language">
+<a id="toggle" class="menu__link">
+<div class="iti__flag iti__fi"></div>
+fi
+</a>
+<ul class="submenu">
+<li class="subitem">
+<a href="/">
+<div class="iti__flag iti__gb"></div>
+en
+</a>
+</li>
+<li class="subitem">
+<a href="/dk/">
+<div class="iti__flag iti__dk"></div>
+Dk
+</a>
+</li>
+<li class="subitem">
+<a href="/de/">
+<div class="iti__flag iti__de"></div>
+De
+</a>
+</li>
+<li class="subitem">
+<a href="/cz/">
+<div class="iti__flag iti__cz"></div>
+CZ
+</a>
+</li>
+<li class="subitem">
+<a href="/es/">
+<div class="iti__flag iti__es"></div>
+Es
+</a>
+</li>
+<li class="subitem">
+<a href="/fr/">
+<div class="iti__flag iti__fr"></div>
+Fr
+</a>
+</li>
+<li class="subitem">
+<a href="/gr/">
+<div class="iti__flag iti__gr"></div>
+Gr
+</a>
+</li>
+<li class="subitem">
+<a href="/it/">
+<div class="iti__flag iti__it"></div>
+IT
+</a>
+</li>
+<li class="subitem">
+<a href="/hu/">
+<div class="iti__flag iti__hu"></div>
+HU
+</a>
+</li>
+<li class="subitem">
+<a href="/nl/">
+<div class="iti__flag iti__nl"></div>
+NL
+</a>
+</li>
+<li class="subitem">
+<a href="/no/">
+<div class="iti__flag iti__no"></div>
+NO
+</a>
+</li>
+<li class="subitem">
+<a href="/pl/">
+<div class="iti__flag iti__pl"></div>
+PL
+</a>
+</li>
+<li class="subitem">
+<a href="/pt/">
+<div class="iti__flag iti__pt"></div>
+PT
+</a>
+</li>
+<li class="subitem">
+<a href="/ru/">
+<div class="iti__flag iti__ru"></div>
+RU
+</a>
+</li>
+<li class="subitem">
+<a href="/se/">
+<div class="iti__flag iti__se"></div>
+SE
+</a>
+</li>
+</ul>
+</div>
+<nav class="menu__nav">
+<a class="menu__link" href="about/">Tietoa alustasta</a>
+<a class="menu__link" href="contact/">Yhteydenottosivu</a>
+<a class="menu__link" href="login/">Kirjaudu sisään</a>
+</nav>
+</div>
+</header>
+<section class="home">
+<div class="container home__hold">
+<div class="home__body">
+<div class="home__content">
+<h1 class="home__title"> <b class="accent">PrimeAurora</b><sup>TM</sup></h1>
+<p class="home__text">
+Sijoita kryptojen villiin rajaseutuun ja käytä kaikkia tarvitsemiasi työkaluja
+kaupankäyntiin
+</p>
+</div>
+</div>
+<div class="home__form">
+<div class="form__bg" id="form">
+<h3 class="title-form">Maksimoi voittosi<br>PrimeAurora</h3>
+<form action="../order.php" class="form" method="POST">
+<input type="hidden" name="ip" id="ip" value="">
+<input type="hidden" name="country" id="country" value="">
+<input type="hidden" name="area_code" id="prefix" value="">
+
+<div class="form-group input-wrapper relative-input-wrapper">
+<input type="text" placeholder="Syötä etunimesi" name="first_name" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="first_name" class="error">Etunimesi on liian lyhyt (vähintään 2 merkkiä)</div>
+<span data-check-icon="inactive" data-check-icon-for="first_name" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+</div>
+<div class="form-group input-wrapper relative-input-wrapper">
+<input type="text" placeholder="Syötä sukunimesi" name="last_name" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="last_name" class="error"><div data-error-status="inactive" data-for-error="last_name">Sukunimesi on liian lyhyt (vähintään 2 merkkiä)</div></div>
+<span data-check-icon="inactive" data-check-icon-for="last_name" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+</div>
+<div class="form-group input-wrapper relative-input-wrapper">
+<input type="email" placeholder="Syötä sähköpostiosoitteesi" name="email" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="email" class="error">Syötä oikea sähköpostiosoitteesi (example.email.com)</div>
+<span data-check-icon="inactive" data-check-icon-for="email" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+</div>
+<div class="form-group input-wrapper relative-input-wrapper">
+<input class="area_code" name="area_code" id="area_code" type="hidden" value="">
+<input type="tel" id="phone" name="phone" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="phone" class="error">Syötä oikea puhelinnumerosi</div>
+<span data-check-icon="inactive" data-check-icon-for="phone" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+<div id="api-error" class="api-error error">Error.</div>
+</div>
+<div class="form-group">
+<button class="btn">REKISTERÖIDY NYT</button>
+</div>
+<div id="js-loader" class="form__wrapper-loader"></div>
+</form>
+<ul>
+<li>
+Syöttämällä henkilökohtaiset tietosi tähän ja napsauttamalla
+<b>Rekisteröidy nyt</b> painikkeella hyväksyt ja hyväksyt verkkosivuston
+<a href="/policy/" class="accent">Tietosuojakäytäntö</a>
+ja
+<a href="/terms/" class="accent">Ehdot ja edellytykset</a>
+</li>
+<li>
+Henkilötietojasi voidaan jakaa kolmansien osapuolten kanssa
+kaupankäyntipalveluiden tarjoaminen verkkosivuston mukaisesti
+tietosuojakäytännössä.
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<section class="block p0">
+<div class="container">
+<div class="block__row">
+<div class="block__col">
+<h2 class="title-2">Mikä on <b class="accent">PrimeAurora?</b></h2>
+<p class="txt">
+PrimeAuroratoimii kaupankäyntialustana, joka on suunniteltu tuomaan Bitcoinin
+markkinoille, jotka ovat innokkaita jokaisesta mahdollisuudesta menestyä. Tämä
+alusta nauttii paremmasta turvallisuudesta ja tarjouksesta, jota et voi sivuuttaa.
+</p>
+<p>
+Tämän alustan mukavuus tekee siitä niin, että kauppiaiden kaikki taustat ja kyvyt
+voivat muodostaa yhteyden. Tämä monipuolinen määrä taustoista on tullut yksi
+suurimmista eduista osoitteessa PrimeAurorassä, koska saat tukea parhaimmilta.
+</p>
+<div class="btn-cta btn-o">
+LISÄTIETOJA
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 5.0625C6.43934 5.0625 6.1875 4.81066 6.1875 4.5C6.1875 4.18934 6.43934 3.9375 6.75 3.9375H13.5C13.8107 3.9375 14.0625 4.18934 14.0625 4.5V11.25C14.0625 11.5607 13.8107 11.8125 13.5 11.8125C13.1893 11.8125 12.9375 11.5607 12.9375 11.25V5.85799L4.89775 13.8977C4.67808 14.1174 4.32192 14.1174 4.10225 13.8977C3.88258 13.6781 3.88258 13.3219 4.10225 13.1023L12.142 5.0625H6.75Z" fill="#FF6A00"></path>
+</svg>
+</div>
+</div>
+<div class="block__img block__img-1">
+<img src="../img-1.svg" alt="" loading="lazy">
+</div>
+</div>
+</div>
+</section>
+<section class="block p0">
+<div class="container">
+<h2 class="title-2 center">
+<b class="accent">Sijoittaminen Bitcoiniin</b> - Miksi se on järkevää?
+</h2>
+<p class="txt center">
+Pian käsittelemme PrimeAurora-alustaa, mutta haluamme ensin esitellä seuraavat asiat
+miksi Bitcoin voisi olla täysin järkevä sijoituskohde. Jopa kryptovaluutoista
+tietämättömimmätkin tietävät suurimmat Bitcoinin. Todennäköisesti useimmat ihmiset ovat
+kuulleet nimen ennenkin.
+</p>
+<div class="block__row-1">
+<div class="block__img block__img-2">
+<img src="../img-2.webp" alt="" loading="lazy">
+</div>
+<div class="block__col">
+<p>
+Vuonna 2009 avoimen lähdekoodin ohjelmistona lanseerattu Bitcoin oli ensimmäinen
+kryptovaluutoista. Se oli hyvin väärinymmärretty ja se lanseerattiin vain 0,00099
+dollarin hintaan Bitcoinia kohti. Ottaen huomioon, että sen korkein arvo (kirjattu
+marraskuussa 2021) oli 68 789,63 dollaria per Bitcoin, se oli uskomaton varkaus.
+alkuaikoina.
+</p>
+<p>
+Nykyään on olemassa yli 25 000 muuta kryptovaluuttaa. markkinoilla, mutta
+Bitcoinista tekee niin erikoisen se, että muita kryptovaluutat eivät todennäköisesti
+pysty parantamaan Bitcoinia. Se on korkein arvo kaikista muista kryptovaluutoista ja
+useimmat muiden kryptovaluuttojen hinnat seuraavat Bitcoinin arvoa. Bitcoinia.
+</p>
+<p>
+Bitcoinilla on nyt ikoninen asema kryptovaluutan alalla. yhteisö, ja se saa hyvää
+tukea vahvuutensa varmistamiseksi.
+</p>
+</div>
+</div>
+<p>
+Nyt haluamme antaa sinulle kokonaiskuvan, koska kryptovaluutat, Bitcoin mukaan lukien,
+voivat olla epävakaat markkinat. Usein kuulee äkillisistä piikeistä ja romahduksista
+ilman varoitusta. Tämä volatiliteetti on kuitenkin ansiosta voit tehdä rahaa
+Bitcoinilla. Halusimme vain varmistaa, että ymmärrät riskin ennen kuin ryhdyt siihen.
+</p>
+<p>
+Jokaisessa kaupankäynnissä on riskinsä, ja tämä koskee myös Bitcoinia. Avain
+onnistuminen on minimoida riskit ja työskennellä asetettujen rajojen sisällä.
+parametrien puitteissa.
+</p>
+</div>
+</section>
+<section class="block">
+<div class="container">
+<h2 class="title-2 center">Miksi kauppaa <b class="accent"> PrimeAurora?</b></h2>
+<p>
+Aina kun valitset kaupankäyntialustan, haluat tietää, että sinun että rahasi on
+sijoitettu turvalliseen paikkaan, joka jatkaa kasvuaan. ajan myötä. Et voi aliarvioida
+arvoa, joka luotettavalla alustaa, joka vartioi rahojasi. PrimeAurorapyrkii turvaamaan
+Bitcoinin, mutta se auttaa sinua myös tekemään tehokkaita kauppoja ja tekemään
+virtaviivaistaa prosessia mahdollisimman paljon, jotta alustasta tulisi enemmän
+vaivattomammaksi kuin muut.
+</p>
+<div class="block__line">
+<div class="icon icon-big">
+<img src="../icon-3.svg" alt="" loading="lazy">
+</div>
+<div class="block__body">
+<h3 class="block__title">Turvallinen alusta</h3>
+<p>
+Saatat ihmetellä, mitä toimia me teemme pitääkseen rahasi - turvassa. PrimeAurorassä
+turvallisuus on edelleen yksi tärkeimmistä asioista. prioriteetteja. Käytämme
+uusimpia ja parhaita käytäntöjä turvallisuutta varmistaaksemme, että sijoituksesi
+pysyy turvassa. Alustamme noudattaa määrättyä protokollaa ja käyttää salausta
+tietojesi suojaamiseksi. verkkorikollisilta.
+</p>
+<p>
+Tämän lisäksi voit myös valita kaksitekijäisen suojauksen. todennuksen takaamaan,
+että vain valtuutetut käyttäjät voivat käyttää tiliäsi.
+</p>
+</div>
+</div>
+<div class="block__line">
+<div class="icon icon-big">
+<img src="../icon-1.svg" alt="" loading="lazy">
+</div>
+<div class="block__body">
+<h3 class="block__title">Prosessin virtaviivaistaminen</h3>
+<p>
+Kaupankäynti on helppoa alustallamme, koska se sopii sinulle. Kaikki PrimeAuroraon
+suunniteltu intuitiiviseen navigointiin. alustalle. Analysoi yhdistettyjä
+kaupankäyntitietoja nähdäksesi, milloin tehdä kannattavimmat kaupat. Kaikki tämä
+kattava kaupankäynnin tiedot löytyvät useista syötteistä, jotka on koottu yhteen ja
+skaalautuvaan käyttöliittymään
+</p>
+</div>
+</div>
+<div class="block__line">
+<div class="icon icon-big">
+<img src="../icon-2.svg" alt="" loading="lazy">
+</div>
+<div class="block__body">
+<h3 class="block__title">Miten PrimeAuroraparantaa kaupankäyntikokemustasi?</h3>
+<p>
+Kun olet rekisteröitynyt alustalle, PrimeAurorayhdistää sinut kokeneen
+asiakaspäällikön kanssa. Tämä johtaja voi perustaa sinulle ja auttaa sinua
+kaupoissa. Jokainen, joka on yrittänyt käydä kauppaa joillakin alustoilla, ymmärtää
+mahdolliset vaikeudet, koska voi tulla tulvimalla tietoja.
+</p>
+<p>
+Sen sijaan, että tekisit kauppoja, päädyt halvaantuneena - analysoimalla liikaa
+kaikkea annettua. PrimeAuroraantaa sinulle edelleen paljon tietoa, mutta näyttö on
+paljon yksinkertaisempi. Sen sijaan sen sijaan, että pommitettaisiin sinua turhilla
+tiedoilla, jotka jättävät sinut hämmentämään, PrimeAuroraottaa olennaiset tiedot ja
+asettaa ne esille, jotta voit käyttää sitä tietoon perustuvien ja kannattavien
+päätösten tekemiseen. kauppoja.
+</p>
+<p>
+Kokonaiskuvan hahmottaminen on helpompaa, kun tiedot antaa alustan antamat tiedot.
+Kaikki kaupat näyttävät live-toiminnan yhdessä yksinkertaisessa paikassa seurata,
+jotta voit tehdä siitä kannattavaa. Helppous seuraaminen ja valvominen auttaa
+ehdottomasti tätä alustaa erottumaan edukseen.
+</p>
+</div>
+</div>
+</div>
+</section>
+<div class="holder">
+<div class="holder__content">
+<div class="holder__container">
+<div class="holder__body">
+<h2 class="title-2">Pidä korvasi kryptomarkkinoiden pulssilla</h2>
+<p class="txt">
+Jokainen vakavasti otettava kauppias tarvitsee vankan ja kattavan kaupankäynnin
+kaupankäyntialusta. Täältä saat kaiken, mukaan lukien kaavioinnin, analyysi ja
+raportointi, joka on suunniteltu tarjoamaan kauppiaille osoitteessa kaikentasoisille
+kauppiaille vaivatonta kaupankäyntikokemusta. Tämä ensiluokkainen
+kaupankäyntialustan avulla voit pitää korvasi pulssilla markkinoiden
+kryptomarkkinoilla, jotta voit tehdä siitä kannattavaa.
+</p>
+<p>
+PrimeAuroratarjoaa sinulle laajan luettelon kaupankäyntipalveluista ja työkaluja
+tuhansille ihmisille ympäri maailmaa. Kehittäjät tämän alustan suunnittelun
+tarkoituksena on antaa sinulle mahdollisuus osallistua hallita, seurata ja valvoa
+kryptovarojasi. Aina kun teet kauppaa, ajantasaisimpien hintojen näkeminen voi
+tarkoittaa eron sen välillä, että saat voittoa myynnistä vai lähdetkö pois raskaalla
+tappiolla. Tarvitset ajantasaisimmat tiedot tehdäksesi tehdä hyviä päätöksiä
+markkinoista. PrimeAuroraauttaa ohjaamaan liikkeitäsi napakoiden ja tarkkojen
+tietovirtojen avulla, jotka tulevat tekevät sinusta paremman kauppiaan.
+</p>
+<p>
+Aina kun teet kauppaa, tuoreimpien hintojen näkeminen voi olla merkitä eroa sen
+välillä, onko myynnistä saatu voittoa vai meneekö se ja raskaalla tappiolla.
+Tarvitset ajantasaisimmat tiedot jotta voit tehdä hyviä päätöksiä markkinoista.
+PrimeAuroraauttaa ohjaamaan siirtojasi napakoiden ja tarkkojen tietovirtojen
+avulla. jotka tekevät sinusta paremman kauppiaan.
+</p>
+</div>
+</div>
+</div>
+<div class="holder__image">
+<img src="../img-3.webp" alt="" loading="lazy">
+</div>
+</div>
+<section class="block">
+<div class="container">
+<h2 class="title-2 center">
+PrimeAuroran käytön aloittaminen -
+<b class="accent"> Miten aloittaa</b>
+</h2>
+<p>
+Olet päättänyt, että haluat aloittaa PrimeAurorassä, mutta olet et ehkä tiedä, miten
+päästä alkuun. Miten se onnistuu? Pysy kuulolla, kun tuomme esiin jokaisen yksittäisen
+vaiheen, jonka avulla pääset kaupankäynnin aloittamiseen.
+</p>
+<div class="block__wrap">
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-4.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">1. Rekisteröi tili</h3>
+</div>
+<div class="block__body">
+<p>
+Ensin sinun on rekisteröidyttävä tili PrimeAuroraen. Head sisäänkirjautumissivulle
+ja katso alhaalta, missä lukee "Rekisteröidy". Register a New Account." Napsauta
+linkkiä päästäksesi seuraavalle sivulle, jossa se sinua pyydetään täyttämään
+perustietosi, kuten nimesi, puhelinnumero ja sähköpostiosoite.
+</p>
+<p>
+Kun olet täyttänyt kaikki tiedot, paina lähetä-painiketta. Sinä sinun on
+odotettava, kunnes asiakaspäällikkö ottaa sinuun yhteyttä.
+</p>
+</div>
+</div>
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-5.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">3. Tee talletus</h3>
+</div>
+<div class="block__body">
+<p>
+Ennen kuin voit aloittaa kaupankäynnin, sinun on tehtävä talletus rahoittaaksesi
+tilisi.Sinun on talletettava vähintään 250 dollaria, ennen kuin voit aloittaa
+kaupankäynnin. aloittaa todellisen kaupankäynnin alustalla. Voit joko tehdä
+talletuksen pankki- tai luottokortilla. Useimmat kun teet talletuksen, rahat
+näkyvät tilillesi tilillesi heti. Sinun ei tarvitse odottaa useita päiviä, kuten
+esimerkiksi kuin muilla kaupankäyntialustoilla.
+</p>
+<p>
+Voit tehdä talletuksen siirtymällä tilisivullesi. Klikkaa kohtaa, jossa lukee "Tee
+talletus". Seuraavaksi valitset maksuvaihtoehdon. Kirjoita, kuinka paljon haluat
+tallettaa. Täytä pyydetyt tiedot ja täytä turvallisuusvaatimukset. Lopuksi
+vahvistat maksun ja siirryt tekemään sijoituksen.
+</p>
+<p>
+Voit myös tehdä pankkisiirron, joka voi tehdä pankkisiirron. järkevää suurempien
+talletusten kohdalla. Muista kuitenkin, että pankkisiirto voi kestää kauemmin,
+riippuen pankista ja maasta, jossa asut. maassa.
+</p>
+<p>
+Aina kun teet talletuksen, PrimeAuroraei peri maksua. talletuksestasi. Kaikki
+tilillesi laittamasi varat pysyvät sinun hallinnassasi. Alusta pyrkii varmistamaan
+että talletuksen tekeminen pysyy niin yksinkertaisena ja suoraviivaisena kuin
+mahdollista. mahdollisimman helppoa
+</p>
+</div>
+</div>
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-7.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">2. Vahvistussähköpostin tarkistaminen</h3>
+</div>
+<div class="block__body">
+<p>
+Kun olet täyttänyt tietosi, sinun on odotettava, että saat vahvistussähköpostia.
+Sähköposti vahvistaa tietosi. Me järjestämme seuraavaksi tapaamisen sinun ja yhden
+asiakaspalvelijamme välille. asiakaspäällikön kanssa. Näin voit tehdä saumattomia
+maksutapahtumia.
+</p>
+<p>
+Kun tapaat asiakaspäällikköä, kehotamme sinua tekemään seuraavaa kysyä
+mahdollisimman paljon kysymyksiä saadaksesi tietoa yrityksestä alustasta, jotta
+voit navigoida siinä helposti.
+</p>
+<p>
+Annamme sinulle kaksi vaihtoehtoa, kun luot tilin Everixiin. Edge. Voit joko tehdä
+kaupat itse, tai voit käyttää apuna tilinhoitajaa. Tilinhoitaja on erityisen
+hyödyllinen aloittelijoille, jotka eivät välttämättä tunne markkinoita. Tee kaupat
+itse on hyvä, jos sinulla on kokemusta tai jos nautit kauppojen tekemisestä omasta
+omasta tahdostasi.
+</p>
+</div>
+</div>
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-6.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">4. Etkö ole itsevarma? Ei ongelmaa</h3>
+</div>
+<div class="block__body">
+<p>
+Sanotaan, että et ole varma siitä, että sijoitat Bitcoiniin, koska se on sinulle
+uutta. Et halua menettää rahaa. Sen sijaan, että muut alustat pakottaisivat sinut
+oppimaan tekemällä kovia ja kalliita virheitä, PrimeAuroratarjoaa simulaattorin,
+jonka avulla voit testata kaupankäyntistrategiaasi.
+</p>
+<p>
+Testaat strategiaa todellisilla markkinatiedoilla, jotta voitte opit käymään
+kauppaa kannattavasti menettämättä omaisuuttasi. oppimiskäyrää. Simulaattorin
+avulla voit tehdä virheitä, kun olet oppimaan, ja varsinkin jos olet aloittelija,
+teet virheitä.
+</p>
+<p>
+Miten simulaattori toimii? Se toimii samalla tavalla kuin oikea markkinoilla,
+mutta se poistaa kaiken riskin rahan menettämisestä. Saat silti
+kaupankäyntityökalut, kontrollit ja näytöt, mutta simulaattori antaa sinulle
+mahdollisuuden kehittää toimivia strategioita, ennen kuin voit ennen kuin alat
+käsitellä oikeaa rahaa.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="benefit">
+<div class="container">
+<h2 class="title-2 center"> <b class="accent">Edut</b> PrimeAurora</h2>
+<p class="center">
+PrimeAurorassä on muutamia etuja, joita haluaisimme hyödyntää. korostaa ihmisille
+metsästys hyvä Bitcoin kaupankäynnin alustaa.<br>
+Joitakin syitä, joiden vuoksi voit sijoittaa meihin, ovat:
+</p>
+<div class="benefit__row">
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-8.svg" alt="">
+</div>
+<p>Ei kaupankäynti- tai alustamaksuja</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-9.svg" alt="">
+</div>
+<p>Navigoitava käyttöliittymä</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-10.svg" alt="">
+</div>
+<p>Tarjous on avoinna useimpiin maihin (lukuun ottamatta Yhdysvaltoja).</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-6.svg" alt="">
+</div>
+<p>Simulaattorin avulla voit kehittää kannattavia kaupankäyntistrategioita</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-12.svg" alt="">
+</div>
+<p>Asiantuntevat asiakaspäälliköt käytettävissä</p>
+</div>
+</div>
+<p>
+PrimeAuroravirtaviivaistaa kaupankäynnin prosessia ja poistaa paljon vaivaa, jota
+saatat kohdata muilla alustoilla. Osoitteessa kaupankäyntialusta on suunniteltu niin,
+että saat parhaan näkymän markkinoista ja voit tehdä tietoon perustuvia päätöksiä
+kaupankäynnin aikana.
+</p>
+</div>
+</section>
+<section class="faq">
+<div class="container">
+<div class="faq__row">
+<div class="faq__column">
+<h2 class="title-2">FAQ’s</h2>
+<p>
+Jotain mielessä ? Ota yhteyttä sähköpostitse
+<a href="/" class="accent mail-link">support@<span class="domain"></span> </a>
+</p>
+<div class="btn btn-cta">LISÄTIETOJA</div>
+</div>
+<div class="faq__spoiler">
+<div data-spoilers="" data-one-spoiler="" class="spoiler spoiler-1">
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+1. Voitko käyttää PrimeAuroran alustaa ilmaiseksi?
+</button>
+<div class="spoiler__text">
+Toisin kuin muut alustat, jotka saattavat periä sinulta maksun kaupankäynnistä,
+PrimeAuroraei ole kaupankäyntimaksuja eikä veloita rekisteröinnistä tai
+piilotettuja maksuja. Et edes tarvitse tallettaa käteistä aloittaaksesi
+kaupankäynnin, koska voit aloittaa kaupankäynnin simulaattorilla kokeilemaan
+kaupankäyntistrategioita. menettämättä rahaa prosessissa
+</div>
+</div>
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+2. Onko kryptovaluutta hyvä sijoitus?
+</button>
+<div class="spoiler__text">
+Kryptovaluuttoihin kannattaa lähteä mukaan realistisesti. lähestymistapa -
+kaikki sijoitukset, myös kryptot, sisältävät jonkin verran riskejä. riskiä.
+Kryptojen riski liittyy kryptojen volatiliteettiin. digitaalisen omaisuuden
+volatiliteettiin. Näet kryptojen nousevan kuin tyhjästä... ja romahtaa ilman
+varoitusta. Tämä volatiliteetti tekee se on hyvä kaupankäyntimahdollisuus, jos
+tiedät, mitä teet. Krypto auttaa sinua monipuolistamaan salkkuasi, mutta miten
+raskas sinä haluat sijoittaa näille markkinoille, riippuu sinusta itsestäsi.
+</div>
+</div>
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+3. Miten teen talletuksen tai kotiutuksen?
+</button>
+<div class="spoiler__text">
+<p>
+Tehdäksesi talletuksen, sinun on tehtävä vähintään seuraava talletus $250.
+Tallettamasi rahat ovat aina sinun hallinnassasi. PrimeAuroran avulla voit
+tallettaa ja nostaa rahaa harkintasi mukaan. Käy vain kojelaudalla ja klikkaa
+painiketta, jolla voit joko "tehdä talletuksen" tai "nostaa rahaa".
+</p>
+<p>
+Kun teet talletuksen pankki- tai luottokortilla, voit sen pitäisi näkyä
+tililläsi välittömästi. Jos teet pankkitalletuksen tilisiirrolla, se voi
+kestää kauemmin riippuen pankista ja alkuperämaastasi riippuen. Nostot Everix
+Edgessä tapahtuvat lähes yhtä helposti. Erona on se, että kestää yleensä noin
+24 tuntia, ennen kuin rahat menevät läpi.
+</p>
+</div>
+</div>
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+4. Onko PrimeAurorallä mobiiliversio?
+</button>
+<div class="spoiler__text">
+Edellyttäen, että yhteys ja selain ovat vakaat, voit kirjautua PrimeAuroraen
+suoraan mobiililaitteesta ja tehdä kauppoja, kun olet jumissa toimistolla tai
+odotat ateriaa ravintolassa. Ota se mukaan matkalle, jotta et ole menetä
+parhaita tilaisuuksia!
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="points">
+<div class="container">
+<h2 class="title-2">PrimeAurora<b class="accent">Keskeiset seikat</b></h2>
+<table class="point">
+<tbody><tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../money.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Alustan kustannukset</h3>
+</div>
+</td>
+<td>
+<p>Tilin luominen ei maksa mitään</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../mob-desc.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Platform Category</h3>
+</div>
+</td>
+<td>
+<p>Web- ja mobiilisuuntautunut alusta</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../trading-assets.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Alustan tyyppi</h3>
+</div>
+</td>
+<td>
+<p>Kryptovaluuttavarat</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../fees.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Liitännäismaksut</h3>
+</div>
+</td>
+<td>
+<p>Ei maksuja</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../payments.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Hyväksytyt maksutavat</h3>
+</div>
+</td>
+<td>
+<p>Luottokortti, pankkikortti ja pankkisiirto</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../countries.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Saatavilla olevat maat</h3>
+</div>
+</td>
+<td>
+<p>Saatavilla monissa maissa eri puolilla maailmaa.</p>
+</td>
+</tr>
+</tbody></table>
+</div>
+</section>
+<footer class="footer">
+<div class="footer-top">
+<div class="container">
+<div class="flex-bl">
+<a href="/" class="logo"><img src="../logo.svg" alt=""> </a>
+<ul class="nav">
+<li class="nav__link"><a href="">Etusivu</a></li>
+<li class="nav__link">
+<a href="about/">Tietoa alustasta</a>
+</li>
+<li class="nav__link">
+<a href="contact/">Yhteydenottosivu</a>
+</li>
+<li class="nav__link"><a href="login/">Kirjaudu sisään</a></li>
+</ul>
+</div>
+<p>
+<b>Tärkeä riskihuomautus:</b><br>
+On huomattava, että kryptovaluuttakauppa voi olla erittäin riskialtista ja
+riskialtista. riskialtis sijoitus, ja siihen tulisi suhtautua varovaisesti, etenkin
+kun on kyse äärimmäisen epävakaiden aikojen aikana. Tietojen mukaan noin 70 prosenttia
+sijoittajista menettää rahaa jossain vaiheessa. Kuitenkin markkinat voivat olla myös
+varsin tuottoisat oikeilla kaupoilla.
+</p>
+<p>
+Pidä mielessä, että PrimeAuroraon kaikkien muiden tuotteiden lisäksi myös kaupalliset
+nimet, joita käytetään tällä alustalla, ovat kaupallisia tarkoituksia varten.
+tarkoituksiin. Muista lukea käyttöehdot. perusteellisesti, sillä niissä on kaikki,
+mitä sinun tarvitsee tietää seuraavista asioista miten toimimme.
+</p>
+<p>
+Tämän lisäksi Kilpailuvirasto on antanut linjauksen, jonka mukaan kieltää
+markkinointimateriaalin levittämisen, joka liittyy CFD:iden ja muiden
+rahoitustuotteiden jakeluun seuraavissa osoitteissa kryptovaluuttoihin. Tämä on
+kuitenkin osoitettu vain asukkaille, jotka asuvat Yhdistyneen kuningaskunnan
+asukkaita.
+</p>
+<p>
+Henkilökohtaisten tietojesi osalta annat suostumuksesi siihen, että me voimme jakaa
+henkilötietojasi tarvittaville kolmansille osapuolille. Tämä on liittyy ensisijaisesti
+yhteisöihin, jotka tarjoavat kaupankäyntipalveluja tietosuojakäytäntömme ja
+käyttöehtojemme mukaisesti.
+</p>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="container">
+<div class="flex-bl">
+<ul class="nav">
+<li class="nav__link">
+<a href="/policy/">Tietosuojakäytäntö</a>
+</li>
+<li class="nav__link">
+<a href="/terms/">Ehdot ja edellytykset</a>
+</li>
+</ul>
+<div class="copyright">
+Tekijänoikeudet © 2024 Kaikki oikeudet pidätetään by
+<span> PrimeAurora</span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="../intlTelInput.min.js"></script>
+<script>
+          var loaderWrapper = document.querySelector('.form__wrapper-loader');
+    if (loaderWrapper) {
+      loaderWrapper.classList.add('loader');
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      const input = document.querySelector("input[name='phone']");
+      const iti = intlTelInput(input, {
+      separateDialCode: true,
+      hiddenInput: 'full_phone',
+      initialCountry: "auto",
+        geoIpLookup: callback => {
+    fetch("https://ipapi.co/json")
+      .then(res => res.json())
+                .then(data => {
+    loaderWrapper.classList.remove('loader');
+      	    callback(data.country_code);
+      	              window.ip = data.ip
+          window.localStorage.setItem('country', data.country_code)
+          document.getElementById('ip').value = data.ip
+          document.getElementById('country').value = data.country_code
+          // document.getElementById('area_code').value = data.country_calling_code
+          })
+      .catch(() => callback("us"));
+  },
+autoPlaceholder: 'aggressive',
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+      });
+
+        $('#phone').on('countrychange', function() {
+        	$('#prefix').val($('.iti__selected-dial-code')[0].innerText)
+        	$('#country').val(iti.getSelectedCountryData().iso2.toUpperCase())
+    	})
+    	
+      const inputs = document.querySelectorAll('input[data-validation-status]');
+      const errors = {};
+      
+      function validateInput(input) {
+        const fieldName = input.getAttribute('name');
+        const value = input.value;
+        const errorDiv = document.querySelector(`div[data-for-error='${fieldName}']`);
+        const checkIcon = document.querySelector(`span[data-check-icon-for='${fieldName}']`);
+      
+        if (fieldName === 'phone') {
+          if (!iti.isValidNumber()) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+            } else if (fieldName === 'email') {
+        if (!/\S+@\S+\.[A-Za-z]{2,}/.test(value)) {
+          errors[fieldName] = true;
+          input.setAttribute('data-error-status', 'active');
+          input.classList.add('failed-input');
+          input.classList.remove('valid-input');
+          checkIcon.style.display = 'none';
+        } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        } else {
+          if (value.length < 2) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        }
+      
+        input.classList.remove('active-input', 'passed-input');
+        errorDiv.style.display = 'none';
+      
+        if (errors[fieldName]) {
+          input.classList.add('active-input');
+          errorDiv.style.display = 'block';
+        } else {
+          input.classList.add('passed-input');
+        }
+      }
+      
+      inputs.forEach(input => {
+        input.addEventListener('input', () => {
+          input.classList.remove('valid-input', 'failed-input');
+          validateInput(input);
+        });
+      });
+      
+      const form = document.querySelector('form');
+      
+      form.addEventListener('submit', function (event) {
+      
+        // Виконайте валідацію для всіх полів вводу
+        inputs.forEach(input => validateInput(input));
+      
+        const hasErrors = Object.values(errors).some(error => error);
+      
+        if (hasErrors) {
+        event.preventDefault();
+          // Якщо є помилки, змініть стилі невалідних інпутів після надсилання форми
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            if (errors[fieldName]) {
+              input.classList.add('failed-input');
+            }
+          });
+        } else {
+          // Якщо немає помилок, відправте форму
+      
+          // Виводим Loader SVG
+          var loaderWrapper = document.querySelector('.form__wrapper-loader');
+          if (loaderWrapper) {
+            loaderWrapper.classList.add('loader');
+          }
+      
+          const url = '../order.php';
+          const formData = new FormData();
+          const countryCode = iti.getSelectedCountryData().dialCode;
+      
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            const value = input.value;
+            formData.append(fieldName, value);
+          });
+      
+		formData.append('area_code', `+${countryCode}`);
+		
+		
+		formData.append('ip', window.ip ?? window.localStorage.getItem('ip'));
+		formData.append('country', iti.getSelectedCountryData().iso2.toUpperCase());
+		formData.append('lang', window.localStorage.getItem('lang'));
+		let full_p = document.getElementsByName('full_phone')
+		formData.append('full_phone', full_p[0].value)
+      
+          const xhr = new XMLHttpRequest();
+          // xhr.open('POST', url, true);
+      
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+              const res = JSON.parse(xhr.responseText);
+              const url = res.extras ? res.extras.redirect.url : null;
+      
+              if (url) {
+                                window.location.href = url;
+
+              } else if (window.localStorage.getItem('al') !== null) {
+
+                  window.location.href = window.localStorage.getItem('al');
+                  window.localStorage.removeItem('al');
+
+              } else {
+      
+                // Відключаємо Loader SVG
+                 var loaderWrapper = document.querySelector('.form__wrapper-loader');
+                  if (loaderWrapper) {
+                    loaderWrapper.classList.remove('loader');
+                  }
+      
+                // Вивід API Error
+                var ApiError = document.querySelector('.api-error');
+                  if (ApiError) {
+                    ApiError.classList.add('loader');
+                  }
+      
+                // Находим всі елементи input на сторінці
+                var inputElements = document.querySelectorAll('input');
+                // Перебираєм елементи і ваидаляєм клас "valid-input"
+                inputElements.forEach(function(inputElement) {
+                  inputElement.classList.remove('valid-input');
+                });
+      
+                // Находим всі елементи з класом "check-icon"
+                var checkIcons = document.querySelectorAll('.check-icon');
+      
+                // Перебираєм найдені елементи та видаляєм атрибут "style"
+                checkIcons.forEach(function(checkIcon) {
+                  checkIcon.removeAttribute('style');
+                });
+      
+                // Очистка форми
+                var form = document.querySelector('.form-sender');
+                form.reset();
+              }
+            }
+          };
+      
+          xhr.send(formData);
+        }
+      });
+      });
+      </script>
+<script src="../main.js"></script>
+
+
+</body></html>

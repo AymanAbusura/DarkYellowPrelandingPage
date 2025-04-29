@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecuroomAi™ | Official 2025 Update </title>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="styles/intlTelInput.css">
+    <link rel="stylesheet" href="styles/new.css">
+    <link rel="stylesheet" href="styles/style-min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.ico">
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="bg">
+        <header class="header">
+            <div class="container flex-bl">
+            <a href="/" class="logo">
+            <img src="assets/logo.svg" alt=""></a>
+            <div class="language">
+            <a id="toggle" class="menu__link">
+            <div class="iti__flag iti__gb"></div>
+            En
+            </a>
+            <ul class="submenu">
+            <li class="subitem">
+            <a href="/languages/dk/">
+            <div class="iti__flag iti__dk"></div>
+            Dk
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/de/">
+            <div class="iti__flag iti__de"></div>
+            De
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/cz/">
+            <div class="iti__flag iti__cz"></div>
+            CZ
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/es/">
+            <div class="iti__flag iti__es"></div>
+            Es
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/fi/">
+            <div class="iti__flag iti__fi"></div>
+            fi
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/fr/">
+            <div class="iti__flag iti__fr"></div>
+            Fr
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/gr/">
+            <div class="iti__flag iti__gr"></div>
+            Gr
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/it/">
+            <div class="iti__flag iti__it"></div>
+            IT
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/hu/">
+            <div class="iti__flag iti__hu"></div>
+            HU
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/nl/">
+            <div class="iti__flag iti__nl"></div>
+            NL
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/no/">
+            <div class="iti__flag iti__no"></div>
+            NO
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/pl/">
+            <div class="iti__flag iti__pl"></div>
+            PL
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/pt/">
+            <div class="iti__flag iti__pt"></div>
+            PT
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/ru/">
+            <div class="iti__flag iti__ru"></div>
+            RU
+            </a>
+            </li>
+            <li class="subitem">
+            <a href="/languages/se/">
+            <div class="iti__flag iti__se"></div>
+            SE
+            </a>
+            </li>
+            </ul>
+            </div>
+            <nav class="menu__nav">
+            <a class="menu__link" href="/pages/about/">About The Platform</a>
+            <a class="menu__link" href="/pages/contact/">Contact Page</a>
+            <a class="menu__link" href="/pages/login/">Login</a>
+            </nav>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="container home__hold">
+            <div class="home__body">
+            <div class="home__content">
+            <h1 class="home__title">
+            <b class="accent">SecuroomAi</b><sup>TM</sup>
+            </h1>
+            <p class="home__text">
+            Invest in the Wild Frontier of Crypto and Trade with All the Tools You Need
+            </p>
+            </div>
+            </div>
+            <div class="home__form">
+            <div class="form__bg" id="form">
+            <h3 class="title-form">Maximize Your Gains with <br>SecuroomAi</h3>
+            <form action="order.php" class="form" method="POST">
+
+            <input type="hidden" name="ip" id="ip" value="<?=$_SERVER['REMOTE_ADDR'] ?? '';?>">
+            <input type="hidden" name="country" id="country" value="">
+            <input type="hidden" name="area_code" id="prefix" value="">
+
+            <div class="form-group input-wrapper relative-input-wrapper">
+            <input type="text" placeholder="Enter your First Name" name="first_name" class="form-control" value="" data-validation-status="inactive">
+            <div data-error-status="inactive" data-for-error="first_name" class="error">Your first name is too
+            short (at least 2 characters)</div>
+            <span data-check-icon="inactive" data-check-icon-for="first_name" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+            </div>
+            <div class="form-group input-wrapper relative-input-wrapper">
+            <input type="text" placeholder="Enter your Last Name" name="last_name" class="form-control" value="" data-validation-status="inactive">
+            <div data-error-status="inactive" data-for-error="last_name" class="error">Your last name is too
+            short (at least 2 characters)</div>
+            <span data-check-icon="inactive" data-check-icon-for="last_name" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+            </div>
+            <div class="form-group input-wrapper relative-input-wrapper">
+            <input type="email" placeholder="Enter your Email Address" name="email" class="form-control" value="" data-validation-status="inactive">
+            <div data-error-status="inactive" data-for-error="email" class="error">Please enter your real email
+            address (example@email.com)</div>
+            <span data-check-icon="inactive" data-check-icon-for="email" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+            </div>
+            <div class="form-group input-wrapper relative-input-wrapper">
+
+            <input type="tel" id="phone" name="phone" class="form-control" value="" data-validation-status="inactive" autocomplete="off" data-intl-tel-input-id="0" placeholder="Enter your phone number" style="padding-left: 87px;">
+
+            <div data-error-status="inactive" data-for-error="phone" class="error">Please enter a valid phone
+            number.</div>
+            <span data-check-icon="inactive" data-check-icon-for="phone" class="check-icon"><img class="checkbox" src="assets/check-icon.png" alt="✔"></span>
+            <div id="api-error" class="api-error error">Error.</div>
+            </div>
+            <div class="form-group">
+            <button class="btn">Register Now</button>
+            </div>
+            <div id="js-loader" class="form__wrapper-loader loader">
+                <noscript>Please enable JavaScript in your browser or refresh the page and wait.</noscript>
+            </div>
+            </form>
+            <ul>
+            <li> By entering your personal details here and clicking the <b>Register Now</b> button you agree and
+            accept the website <a href="/pages/policy/" class="accent">Privacy Policy</a> and <a href="/pages/terms/" class="accent">Terms &amp; Conditions</a>
+            </li>
+            <li> Your personal information may be shared with third parties providing trading services as provided
+            in the website privacy policy. </li>
+            </ul>
+            </div>
+            </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="block p0">
+        <div class="container">
+        <div class="block__row">
+        <div class="block__col">
+        <h2 class="title-2">What is <b class="accent">SecuroomAi?</b></h2>
+        <p class="txt">SecuroomAi operates as a trading platform designed to bring Bitcoin to a market eager for
+        every
+        opportunity to succeed.
+        This platform enjoys better security and an offer you can’t ignore.
+        </p>
+        <p>
+        The convenience on this platform makes it so that traders from all backgrounds and abilities can connect.
+        This
+        diverse
+        number of backgrounds has become one of the greatest advantages at SecuroomAi because you receive support
+        from the
+        best.
+        </p>
+        <div class=" btn-cta btn-o">
+        LEARN MORE
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 5.0625C6.43934 5.0625 6.1875 4.81066 6.1875 4.5C6.1875 4.18934 6.43934 3.9375 6.75 3.9375H13.5C13.8107 3.9375 14.0625 4.18934 14.0625 4.5V11.25C14.0625 11.5607 13.8107 11.8125 13.5 11.8125C13.1893 11.8125 12.9375 11.5607 12.9375 11.25V5.85799L4.89775 13.8977C4.67808 14.1174 4.32192 14.1174 4.10225 13.8977C3.88258 13.6781 3.88258 13.3219 4.10225 13.1023L12.142 5.0625H6.75Z" fill="#FF6A00"></path>
+        </svg>
+        </div>
+        </div>
+        <div class="block__img block__img-1 ">
+        <img src="assets/img-1.svg" alt="" loading="lazy">
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="block p0">
+        <div class="container">
+        <h2 class="title-2 center"> <b class="accent">Investing in Bitcoin</b> - Why It Makes Sense</h2>
+        <p class="txt center">We will soon cover the platform SecuroomAi, but we’d first like to show you why Bitcoin
+        could
+        make perfect sense as an
+        investment. Even the most ignorant about cryptocurrencies will know the biggest one—Bitcoin. Chances are most
+        people
+        heard the name before.</p>
+        <div class="block__row-1 ">
+        <div class="block__img block__img-2">
+        <img src="assets/img-2.webp" alt="" loading="lazy">
+        </div>
+        <div class="block__col">
+        <p>Launched in 2009 as an open-source software, Bitcoin was the first of the cryptocurrencies. It was very
+        misunderstood at
+        first, and launched for a price of just $0.00099 per Bitcoin. Considering how its highest value (recorded
+        in
+        November
+        2021) was $68,789.63 per Bitcoin, that was an incredible steal in the early days.
+        </p>
+        <p>
+        Today, over 25,000 other cryptocurrencies exist in the marketplace, but what makes Bitcoin so special is
+        that
+        other
+        cryptocurrencies are unlikely to improve upon Bitcoin. It has the highest value out of all the other
+        cryptocurrencies
+        and most of the other cryptocurrencies’s prices follow the value of Bitcoin.
+        </p>
+        <p>
+        Bitcoin now has an iconic status in the cryptocurrency community, and it receives good backing to ensure
+        its
+        strength.
+        </p>
+        </div>
+        </div>
+        <p>
+        Now, we want to give you the full picture because cryptocurrencies, including Bitcoin, can be a volatile
+        market.
+        You
+        often hear about sudden spikes and plummets without warning. However, this volatility is what allows you to
+        make
+        money
+        with Bitcoin. We just wanted to make sure that you understand the risk before getting into it.</p>
+        <p>
+        Every trade has its risks and this includes Bitcoin. The key to making it successful is to minimize your risk
+        and
+        work
+        within set parameters.
+        </p>
+        </div>
+    </section>
+
+    <section class="block">
+        <div class="container">
+        <h2 class="title-2 center">
+        Why Trade with <b class="accent"> SecuroomAi?</b>
+        </h2>
+        <p>
+        Whenever you choose a trading platform, you want to know that your money
+        was put in a safe and secure place that will continue growing over time.
+        You can’t underestimate the value of a trustworthy platform that guards
+        your money. SecuroomAi seeks to secure your Bitcoin, but it will also
+        help you to make efficient trades and streamline the process as much as
+        possible to make the platform more hassle-free than others.
+        </p>
+        <div class="block__line">
+        <div class="icon icon-big">
+        <img src="assets/icon-3.svg" alt="" loading="lazy">
+        </div>
+        <div class="block__body">
+        <h3 class="block__title">Secure Platform</h3>
+        <p>
+        You may be wondering what actions we take to keep your money safe. At
+        SecuroomAi, security remains one of the top priorities. We utilize
+        the latest and best practices for security to ensure that your
+        investment stays safe. Our platform follows a set protocol and uses
+        encryption to protect your data from cybercriminals.
+        </p>
+        <p>
+        Along with that, you can also choose to use the two-factor
+        authentication to guarantee that only authorized users can access your
+        account.
+        </p>
+        </div>
+        </div>
+        <div class="block__line">
+        <div class="icon icon-big">
+        <img src="assets/icon-1.svg" alt="" loading="lazy">
+        </div>
+        <div class="block__body">
+        <h3 class="block__title">Streamlining the Process</h3>
+        <p>
+        Trade easily on our platform as it suits you. Everything at SecuroomAi was designed for intuitive navigation of the platform. Analyze
+        the combined trading data to see when to make the most profitable
+        trades. All of this comprehensive trading data can be found from
+        several feeds put into a single and scalable interface
+        </p>
+        </div>
+        </div>
+        <div class="block__line">
+        <div class="icon icon-big">
+        <img src="assets/icon-2.svg" alt="" loading="lazy">
+        </div>
+        <div class="block__body">
+        <h3 class="block__title">
+        How Does SecuroomAi Improve Your Trading Experience?
+        </h3>
+        <p>
+        Once you sign up with the platform, SecuroomAi connects you with an
+        experienced account manager. This manager can set you up and help you
+        with your trades. Anyone who has tried to trade on some platforms
+        understands the potential difficulty because you can get flooded with
+        data.
+        </p>
+        <p>
+        Instead of making trades, you wind up paralyzed from overanalyzing
+        everything given. SecuroomAi still gives you plenty of data, but they
+        make the display much simpler. Instead of bombarding you with
+        pointless data that will leave you confused, SecuroomAi takes the
+        essential data and puts it upfront where you can use it to make
+        informed and profitable trades.
+        </p>
+        <p>
+        You can see the big picture easier with the information given by the
+        platform. All the trades display live activity in one simple place to
+        follow so that you can make it profitable. The ease of monitoring and
+        controlling it definitely helps this platform to stand out.
+        </p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="holder">
+        <div class="holder__content">
+        <div class="holder__container">
+        <div class="holder__body">
+        <h2 class="title-2">Keep Your Ear on the Pulse of the <br>Crypto Market</h2>
+        <p class="txt">
+        Every serious trader needs a robust and inclusive trading platform. You can get everything here
+        including charting,
+        analysis, and reporting that was designed to provide traders at all levels with a hassle-free
+        trading experience. This
+        premier trading platform lets you keep your ear on the pulse of the crypto market so that you
+        can make it profitable.
+        </p>
+        <p>
+        SecuroomAi offers you an extensive list of trading services and tools to thousands of people
+        all over the globe. The
+        developers at this platform designed with the purpose of letting you manage, track, and monitor
+        your crypto assets.
+        Whenever you make a trade, seeing the most up-to-date prices can mean the difference between
+        making a profit on a sale
+        and going away with a heavy loss. You need the most up-to-date information to make good
+        decisions about the market.
+        SecuroomAi will help to guide your moves through snappy and accurate data streams that will
+        make you a better trader.
+        </p>
+        <p>
+        Whenever you make a trade, seeing the most up-to-date prices can mean the difference between
+        making a profit on a sale
+        and going away with a heavy loss. You need the most up-to-date information to make good
+        decisions about the market.
+        SecuroomAi will help to guide your moves through snappy and accurate data streams that will
+        make you a better trader.
+        </p>
+        </div>
+        </div>
+        </div>
+
+        <div class="holder__image">
+        <img src="assets/img-3.webp" alt="" loading="lazy">
+        </div>
+    </div>
+
+    <section class="block">
+        <div class="container">
+        <h2 class="title-2 center">
+        Getting Started with SecuroomAi- <b class="accent"> How to Begin</b>
+        </h2>
+        <p>
+        You’ve decided that you want to get started at SecuroomAi, but you may
+        not know where to go about getting started. How do you do that? Stay tuned
+        as we highlight each of the individual steps to getting started making
+        trades.
+        </p>
+        <div class="block__wrap ">
+        <div class="block__hold">
+        <div class="block__header">
+        <div class="icon icon-big">
+        <img src="assets/icon-4.svg" alt="" loading="lazy">
+        </div>
+        <h3 class="block__title">1. Register an Account</h3>
+        </div>
+        <div class="block__body">
+        <p>
+        First, you must register an account with SecuroomAi. Head over to
+        the login page and look below to what says, “Register a New
+        Account.” Click the link to enter the next page where it will tell
+        you to fill out your basic details, such as name, phone number, and
+        email address.
+        </p>
+        <p>
+        Once you fill out all the details, hit the send button. You will
+        need to wait until an account manager contacts you.
+        </p>
+        </div>
+        </div>
+        <div class="block__hold">
+        <div class="block__header">
+        <div class="icon icon-big">
+        <img src="assets/icon-5.svg" alt="" loading="lazy">
+        </div>
+        <h3 class="block__title">3. Make a Deposit</h3>
+        </div>
+        <div class="block__body">
+        <p>
+        Before you can start trading, you must make a deposit to fund your account.You must deposit a minimum of
+        $250 before you
+        can get started with real trading on the platform. You can either make a deposit with debit card or
+        credit
+        card. Most of
+        the time when you make a deposit, the money shows up in your account right away. You don’t need to wait
+        several days
+        like you need to with other trading platforms.
+        </p>
+        <p>
+        To make the deposit, head over to your account page. Click the part that says, “Make a Deposit.” Next,
+        you
+        will choose
+        your payment option. Put in how much you’d like to deposit. Fill in the requested details and complete
+        the
+        security
+        requirements. Finally, you will confirm your payment and head over to make the investment.
+        </p>
+        <p>
+        You can also choose to make a bank transfer, which may make sense for larger deposits. Just remember a
+        bank
+        transfer may
+        take longer, depending on the bank and country that you reside in.
+        </p>
+        <p>
+        Whenever you make a deposit, SecuroomAi won’t take a fee out of your deposit. All the funds that you
+        put
+        into your
+        account will stay within your control. The platform tries to ensure that making a deposit stays as
+        simple
+        and
+        straightforward as possible
+        </p>
+        </div>
+        </div>
+        <div class="block__hold">
+        <div class="block__header">
+        <div class="icon icon-big">
+        <img src="assets/icon-7.svg" alt="" loading="lazy">
+        </div>
+        <h3 class="block__title">2. Check for a Confirmation Email</h3>
+        </div>
+        <div class="block__body">
+        <p>
+        After you fill in your details, you will need to wait for a confirmation email. The email confirms your
+        details. We will
+        next arrange for a meeting between you and one of our account managers. This will allow you to make
+        seamless
+        transactions.
+        </p>
+        <p>
+        While meeting with the account manager, we would encourage you to ask as many questions as possible to
+        learn
+        about the
+        platform so that you can navigate it easily.
+        </p>
+        <p>
+        We give you two options when you create an account at SecuroomAi. You can either make trades yourself,
+        or
+        you can use
+        an account manager. The account manager is especially helpful for beginners who may not know the market.
+        Making trades
+        yourself is good if you have experience or enjoy making trades on your own.
+        </p>
+        </div>
+        </div>
+        <div class="block__hold">
+        <div class="block__header">
+        <div class="icon icon-big">
+        <img src="assets/icon-6.svg" alt="" loading="lazy">
+        </div>
+        <h3 class="block__title">4. Not Feeling Confident? No Problem</h3>
+        </div>
+        <div class="block__body">
+        <p>
+        Let’s say that you don’t feel confident about investing in Bitcoin because of your newness to it. You
+        don’t
+        want to lose
+        money. Instead of other platforms that would force you to learn from making hard and costly mistakes,
+        SecuroomAi offers
+        a simulator that lets you test your trading strategy.
+        </p>
+        <p>
+        You test the strategy on real-market data so that you can learn how to trade profitably without losing a
+        fortune at the
+        learning curve. The simulator lets you make mistakes as you learn, and especially if you’re a beginner,
+        you
+        will make
+        mistakes.
+        </p>
+        <p>
+        How does the simulator work? It works the same way as the real market, but it removes all risk of losing
+        money. You
+        still get the trading tools, controls, and displays, but the simulator gives you the chance to develop
+        workable
+        strategies before you start dealing with real cash.
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="benefit">
+        <div class="container">
+        <h2 class="title-2 center"> <b class="accent">Benefits</b> of SecuroomAi</h2>
+        <p class="center">You have a few definite benefits at SecuroomAi that we would like to highlight for people
+        hunting for a good Bitcoin
+        trading platform.<br>
+        Some of the reasons that you might invest with us include:</p>
+        <div class="benefit__row">
+        <div class="benefit__col">
+        <div class="icon icon-big"><img src="assets/icon-8.svg" alt=""></div>
+        <p>No trading<br>
+        or platform fees</p>
+        </div>
+        <div class="benefit__col">
+        <div class="icon icon-big"><img src="assets/icon-9.svg" alt=""></div>
+        <p>Navigable interface</p>
+        </div>
+        <div class="benefit__col">
+        <div class="icon icon-big"><img src="assets/icon-10.svg" alt=""></div>
+        <p>Offering open to most <br>countries (excluding the USA)</p>
+        </div>
+        <div class="benefit__col">
+        <div class="icon icon-big"><img src="assets/icon-6.svg" alt=""></div>
+        <p>Simulator lets you develop<br> profitable trading strategies</p>
+        </div>
+        <div class="benefit__col">
+        <div class="icon icon-big"><img src="assets/icon-12.svg" alt=""></div>
+        <p>Expert account<br>
+        managers available</p>
+        </div>
+        </div>
+        <p>SecuroomAi streamlines the process of trading and eliminates much of the hassle that you might encounter
+        with
+        other
+        platforms. The trading platform was designed so that you receive the best view of the market and can make
+        informed
+        decisions while trading.</p>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+        <div class="faq__row">
+        <div class="faq__column">
+        <h2 class="title-2">FAQ’s</h2>
+        <p>
+        Something in mind ? Contact us by email <a href="mailto:support@SecuroomAi.com" class="accent mail-link">support@<span class="domain">SecuroomAi.com</span> </a>
+        </p>
+        <div class="btn btn-cta">LEARN MORE</div>
+        </div>
+        <div class="faq__spoiler">
+        <div data-spoilers="" data-one-spoiler="" class="spoiler spoiler-1 _is-init">
+        <div class="spoiler__item">
+        <button type="button" data-spoiler="" class="spoiler__title">
+        1. Can you use the platform at SecuroomAi for free?
+        </button>
+        <div class="spoiler__text" hidden="">
+        Unlike other platforms that might charge you a fee to trade, SecuroomAi does not have trading fees
+        and
+        doesn’t charge
+        for registration or tack on hidden fees. You don’t even need to deposit cash to start trading because
+        you
+        can get
+        started with the simulator to try out your trading strategies without losing money in the process
+        </div>
+        </div>
+        <div class="spoiler__item">
+        <button type="button" data-spoiler="" class="spoiler__title">
+        2. Is cryptocurrency a good investment?
+        </button>
+        <div class="spoiler__text" hidden="">
+        You should get into cryptocurrencies with a realistic approach—all investments, including crypto,
+        carry
+        some level of
+        risk. The risk in crypto relates to the volatility of the digital assets. You will see crypto rise
+        from
+        out of nowhere
+        and plummet without warning. This volatility is what makes it a good trading opportunity if you know
+        what
+        you’re doing.
+        Crypto helps you diversify your portfolio, but how heavy you would want to invest in this market
+        depends
+        on you.
+        </div>
+        </div>
+        <div class="spoiler__item">
+        <button type="button" data-spoiler="" class="spoiler__title">
+        3. How do I make a deposit or a withdrawal?
+        </button>
+        <div class="spoiler__text" hidden="">
+        <p>
+        To make a deposit, you will need to put in a minimum of $250. The money you deposit will always be
+        within your control.
+        SecuroomAi lets you deposit and withdraw money at your discretion. Just visit the dashboard and
+        click
+        on the button to
+        either “make a deposit” or “withdraw cash.”
+        </p>
+        <p>
+        When you deposit with a debit card or credit card, you should see it in your account instantly. If
+        you
+        do a bank
+        transfer, it may take longer depending on the bank and your country of origin. Withdrawals at SecuroomAi happen with
+        almost as much ease. The difference is that it usually takes about 24 hours for the money to go
+        through.
+        </p>
+        </div>
+        </div>
+        <div class="spoiler__item">
+        <button type="button" data-spoiler="" class="spoiler__title">
+        4. Does SecuroomAi have a mobile version?
+        </button>
+        <div class="spoiler__text" hidden="">
+        Provided you can work with a stable connection and browser, you can log onto SecuroomAi right from
+        the
+        mobile device to
+        make trades while stuck in the office or waiting for your meal at the restaurant. Take it on the go so
+        that you don’t
+        miss prime opportunities!
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="points">
+        <div class="container">
+        <h2 class="title-2">SecuroomAi<b class="accent">Key Points</b></h2>
+        <table class="point">
+        <tbody><tr>
+        <td>
+        <div class="icon__row">
+        <div class="icon icon-1 icon-circle"><img src="assets/money.svg" alt="" loading="lazy"></div>
+        <h3 class="title-3"> Platform Cost</h3>
+        </div>
+        </td>
+        <td>
+        <p>No cost to create an account </p>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="icon__row">
+        <div class="icon icon-1 icon-circle"><img src="assets/mob-desc.svg" alt="" loading="lazy"></div>
+        <h3 class="title-3"> Platform Category</h3>
+        </div>
+        </td>
+        <td>
+        <p>Web and mobile-oriented platform </p>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="icon__row">
+        <div class="icon icon-1 icon-circle"><img src="assets/trading-assets.svg" alt="" loading="lazy">
+        </div>
+        <h3 class="title-3"> Platform Type</h3>
+        </div>
+        </td>
+        <td>
+        <p>Cryptocurrency assets</p>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="icon__row">
+        <div class="icon icon-1 icon-circle"><img src="assets/fees.svg" alt="" loading="lazy"></div>
+        <h3 class="title-3">Associated Fees</h3>
+        </div>
+        </td>
+        <td>
+        <p>No fees</p>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="icon__row">
+        <div class="icon icon-1 icon-circle"><img src="assets/payments.svg" alt="" loading="lazy"></div>
+        <h3 class="title-3"> Accepted Payment Methods</h3>
+        </div>
+        </td>
+        <td>
+        <p>Credit card, debit card, and bank transfer</p>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <div class="icon__row">
+        <div class="icon icon-1 icon-circle"><img src="assets/countries.svg" alt="" loading="lazy"></div>
+        <h3 class="title-3"> Available Countries</h3>
+        </div>
+        </td>
+        <td>
+        <p>Available in many countries throughout the world.</p>
+        </td>
+        </tr>
+        </tbody></table>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-top">
+        <div class="container">
+        <div class="flex-bl">
+        <a href="/" class="logo"><img src="assets/logo.svg" alt="">
+        </a>
+        <ul class="nav">
+        <li class="nav__link"><a href="/">Home</a></li>
+        <li class="nav__link"><a href="/pages/about/">About The Platform</a></li>
+        <li class="nav__link"><a href="/pages/contact/">Contact Page</a></li>
+        <li class="nav__link"><a href="/pages/login/">Login</a></li>
+        </ul>
+        </div>
+        <p>
+        <b>Important Risk Note:</b><br>
+        It should be noted that cryptocurrency trading can be a highly risky investment and should be approached
+        with
+        caution,
+        especially during times of extreme volatility. Data suggests that roughly 70% of investors will lose money
+        at
+        some point
+        in time. However, the market can also be quite lucrative with the right trades.
+        </p>
+        <p>
+        Keep in mind that SecuroomAi, in addition to any other commercial names used on this platform, are for
+        commercial
+        purposes only. Make sure to read the Terms and Conditions thoroughly, as that will provide everything you
+        need
+        to know
+        about how we operate.
+        </p>
+        <p>
+        In addition to that, a policy has been issued by the FCA that prohibits the dissemination of marketing
+        materials
+        related
+        to the distribution of CFDs and other financial products on cryptocurrencies. However, this is only
+        addressed to
+        residents in the UK.
+        </p>
+        <p>
+        Regarding your personal information, you consent to allow us to share your personal details with necessary
+        third
+        parties. This is primarily related to entities that provide trading services in line with our Privacy Policy
+        and
+        Terms
+        and Conditions.
+        </p>
+        </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="container">
+        <div class="flex-bl">
+        <ul class="nav">
+        <li class="nav__link"><a href="/pages/policy/">Privacy Policy</a></li>
+        <li class="nav__link"><a href="/pages/terms/">Terms &amp; Conditions</a></li>
+        </ul>
+        <div class="copyright">Copyrights © 2025 All Rights Reserved by <span> SecuroomAi</span></div>
+        </div>
+        </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/intlTelInput.min.js"></script>
+<script>
+    var loaderWrapper = document.querySelector('.form__wrapper-loader');
+    if (loaderWrapper) {
+      loaderWrapper.classList.add('loader');
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+
+        window.localStorage.setItem('ip', '<?=$_SERVER["REMOTE_ADDR"];?>')
+        window.localStorage.setItem('lang', 'EN')
+
+      const input = document.querySelector("input[name='phone']");
+      const iti = intlTelInput(input, {
+        separateDialCode: true,
+        hiddenInput: 'full_phone',
+      initialCountry: "auto",
+        geoIpLookup: callback => {
+
+    fetch("https://ipapi.co/json")
+      .then(res => res.json())
+      .then(data => {
+          loaderWrapper.classList.remove('loader');
+          callback(data.country_code)
+          window.ip = data.ip
+          window.localStorage.setItem('country', data.country_code)
+          document.getElementById('ip').value = data.ip
+          document.getElementById('country').value = data.country_code
+        // document.getElementById('area_code').value = data.country_calling_code
+      })
+      .catch(() => callback("us"));
+  },
+        autoPlaceholder: 'aggressive',
+        utilsScript: "js/utils.js",
+      });
+      
+    $('#phone').on('countrychange', function() {
+        console.log(iti.getSelectedCountryData().iso2.toUpperCase())
+        $('#prefix').val($('.iti__selected-dial-code')[0].innerText)
+        $('#country').val(iti.getSelectedCountryData().iso2.toUpperCase())
+    })
+
+      const inputs = document.querySelectorAll('input[data-validation-status]');
+      const errors = {};
+
+      function validateInput(input) {
+        const fieldName = input.getAttribute('name');
+        const value = input.value;
+        const errorDiv = document.querySelector(`div[data-for-error='${fieldName}']`);
+        const checkIcon = document.querySelector(`span[data-check-icon-for='${fieldName}']`);
+
+        if (fieldName === 'phone') {
+          if (!iti.isValidNumber()) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        } else if (fieldName === 'email') {
+          if (!/\S+@\S+\.[A-Za-z]{2,}/.test(value)) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        } else {
+          if (value.length < 2) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        }
+
+        input.classList.remove('active-input', 'passed-input');
+        errorDiv.style.display = 'none';
+
+        if (errors[fieldName]) {
+          input.classList.add('active-input');
+          errorDiv.style.display = 'block';
+        } else {
+          input.classList.add('passed-input');
+        }
+      }
+
+      inputs.forEach(input => {
+        input.addEventListener('input', () => {
+          input.classList.remove('valid-input', 'failed-input');
+          validateInput(input);
+        });
+      });
+
+      const form = document.querySelector('form');
+
+      form.addEventListener('submit', function (event) {
+
+        inputs.forEach(input => validateInput(input));
+
+        const hasErrors = Object.values(errors).some(error => error);
+
+        if (hasErrors) {
+        event.preventDefault();
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            if (errors[fieldName]) {
+              input.classList.add('failed-input');
+            }
+          });
+        } else {
+          var loaderWrapper = document.querySelector('.form__wrapper-loader');
+          if (loaderWrapper) {
+            loaderWrapper.classList.add('loader');
+          }
+
+          const url = 'order.php';
+          const formData = new FormData();
+          const countryCode = iti.getSelectedCountryData().dialCode;
+
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            const value = input.value;
+            formData.append(fieldName, value);
+          });
+
+
+      formData.append('area_code', `+${countryCode}`);
+      formData.append('ip', window.ip ?? window.localStorage.getItem('ip'));
+      formData.append('country', iti.getSelectedCountryData().iso2.toUpperCase());
+
+          let full_p = document.getElementsByName('full_phone')
+          formData.append('full_phone', full_p[0].value)
+
+          const xhr = new XMLHttpRequest();
+          // xhr.open('POST', url, true);
+
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+              const res = JSON.parse(xhr.responseText);
+              const url = res.extras ? res.extras.redirect.url : null;
+
+              if (url) {
+
+                window.location.href = url;
+
+              } else if (window.localStorage.getItem('al') !== null) {
+
+                  window.location.href = window.localStorage.getItem('al');
+                  window.localStorage.removeItem('al');
+
+              } else {
+
+                var loaderWrapper = document.querySelector('.form__wrapper-loader');
+                if (loaderWrapper) {
+                  loaderWrapper.classList.remove('loader');
+                }
+
+                var ApiError = document.querySelector('.api-error');
+                if (ApiError) {
+                    ApiError.innerText = res.errors ? res.errors[0] : 'Something error, try again later.'
+                  ApiError.classList.add('loader');
+                }
+
+                var inputElements = document.querySelectorAll('input');
+                inputElements.forEach(function (inputElement) {
+                  inputElement.classList.remove('valid-input');
+                });
+
+                var checkIcons = document.querySelectorAll('.check-icon');
+
+                checkIcons.forEach(function (checkIcon) {
+                  checkIcon.removeAttribute('style');
+                });
+
+                var form = document.querySelector('.form-sender');
+                form.reset();
+              }
+            }
+          };
+
+          xhr.send(formData);
+        }
+      });
+    });
+</script>
+
+<script src="js/scripts.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

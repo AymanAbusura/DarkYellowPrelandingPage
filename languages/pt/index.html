@@ -1,0 +1,995 @@
+<!DOCTYPE html><html lang="pt" ><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PrimeAurora™ | Atualização oficial de 2024</title>
+<meta name="description" content="Investir na fronteira selvagem das criptomoedas e negociar com todas as ferramentas de que necessita">
+<meta name="keywords" content="">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+<link href= "../css.css" rel="stylesheet">
+<link rel="stylesheet" href="../intlTelInput.css">
+
+<link rel="stylesheet" href="../style-min.css">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+
+</head>
+<body>
+<div class="wrapper">
+<div class="bg">
+<header class="header">
+<div class="container flex-bl">
+<a href="/" class="logo"> <img src="../logo.svg" alt=""></a>
+<div class="language">
+<a id="toggle" class="menu__link">
+<div class="iti__flag iti__pt"></div>
+pt
+</a>
+<ul class="submenu">
+<li class="subitem">
+<a href="/">
+<div class="iti__flag iti__gb"></div>
+en
+</a>
+</li>
+<li class="subitem">
+<a href="/dk/">
+<div class="iti__flag iti__dk"></div>
+Dk
+</a>
+</li>
+<li class="subitem">
+<a href="/de/">
+<div class="iti__flag iti__de"></div>
+De
+</a>
+</li>
+<li class="subitem">
+<a href="/cz/">
+<div class="iti__flag iti__cz"></div>
+CZ
+</a>
+</li>
+<li class="subitem">
+<a href="/es/">
+<div class="iti__flag iti__es"></div>
+es
+</a>
+</li>
+<li class="subitem">
+<a href="/fi/">
+<div class="iti__flag iti__fi"></div>
+fi
+</a>
+</li>
+<li class="subitem">
+<a href="/fr/">
+<div class="iti__flag iti__fr"></div>
+Fr
+</a>
+</li>
+<li class="subitem">
+<a href="/gr/">
+<div class="iti__flag iti__gr"></div>
+Gr
+</a>
+</li>
+<li class="subitem">
+<a href="/it/">
+<div class="iti__flag iti__it"></div>
+IT
+</a>
+</li>
+<li class="subitem">
+<a href="/hu/">
+<div class="iti__flag iti__hu"></div>
+HU
+</a>
+</li>
+<li class="subitem">
+<a href="/nl/">
+<div class="iti__flag iti__nl"></div>
+NL
+</a>
+</li>
+<li class="subitem">
+<a href="/no/">
+<div class="iti__flag iti__no"></div>
+NO
+</a>
+</li>
+<li class="subitem">
+<a href="/pl/">
+<div class="iti__flag iti__pl"></div>
+PL
+</a>
+</li>
+<li class="subitem">
+<a href="/ru/">
+<div class="iti__flag iti__ru"></div>
+RU
+</a>
+</li>
+<li class="subitem">
+<a href="/se/">
+<div class="iti__flag iti__se"></div>
+SE
+</a>
+</li>
+</ul>
+</div>
+<nav class="menu__nav">
+<a class="menu__link" href="about/">Sobre a plataforma</a>
+<a class="menu__link" href="contact/">Página de contacto</a>
+<a class="menu__link" href="login/">Iniciar sessão</a>
+</nav>
+</div>
+</header>
+<section class="home">
+<div class="container home__hold">
+<div class="home__body">
+<div class="home__content">
+<h1 class="home__title"> <b class="accent">PrimeAurora</b><sup>TM</sup></h1>
+<p class="home__text">
+Invista na fronteira selvagem da criptografia e negocie com todas as ferramentas
+de que precisa
+</p>
+</div>
+</div>
+<div class="home__form">
+<div class="form__bg" id="form">
+<h3 class="title-form">Maximize os seus ganhos com <br>PrimeAurora</h3>
+<form action="../order.php" class="form" method="POST">
+<input type="hidden" name="ip" id="ip" value="">
+<input type="hidden" name="country" id="country" value="">
+<input type="hidden" name="area_code" id="prefix" value="">
+
+<div class="form-group input-wrapper relative-input-wrapper">
+<input type="text" placeholder="Digita o teu Nome Próprio" name="first_name" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="first_name" class="error">O teu nome próprio é muito curto (pelo menos, 2 carateres)</div>
+<span data-check-icon="inactive" data-check-icon-for="first_name" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+</div>
+<div class="form-group input-wrapper relative-input-wrapper">
+<input type="text" placeholder="Digita o teu Apelido" name="last_name" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="last_name" class="error">O teu apelido é muito curto (pelo menos, 2 carateres)</div>
+<span data-check-icon="inactive" data-check-icon-for="last_name" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+</div>
+<div class="form-group input-wrapper relative-input-wrapper">
+<input type="email" placeholder="Digita o teu Endereço de ‘E-mail’" name="email" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="email" class="error">Por favor, digita o teu endereço de ‘e-mail’ real (example.email.com)</div>
+<span data-check-icon="inactive" data-check-icon-for="email" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+</div>
+<div class="form-group input-wrapper relative-input-wrapper">
+
+<input type="tel" id="phone" name="phone" class="form-control" value="" data-validation-status="inactive">
+<div data-error-status="inactive" data-for-error="phone" class="error">Por favor, digita o teu número de telefone real</div>
+<span data-check-icon="inactive" data-check-icon-for="phone" class="check-icon"><img class="checkbox" src="check-icon.png" alt="✔"></span>
+<div id="api-error" class="api-error error">Error.</div>
+</div>
+<div class="form-group">
+<button class="btn">Registre-se agora</button>
+</div>
+<div id="js-loader" class="form__wrapper-loader"></div>
+</form>
+<ul>
+<li>
+Introduzindo os seus dados pessoais aqui e clicando no botão
+<b>Registar agora</b> botão concorda e aceita o sítio Web
+<a href="/policy/" class="accent">Política de privacidade</a>
+e
+<a href="/terms/" class="accent">Termos e condições</a>
+</li>
+<li>
+As suas informações pessoais podem ser partilhadas com terceiros que prestem
+serviços comerciais, tal como previsto na política de privacidade do sítio Web.
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<section class="block p0">
+<div class="container">
+<div class="block__row">
+<div class="block__col">
+<h2 class="title-2">O que é <b class="accent">PrimeAurora?</b></h2>
+<p class="txt">
+O PrimeAurorafunciona como uma plataforma de negociação concebida para trazer
+Bitcoin a um mercado ávido por todas as oportunidades de sucesso. Esta plataforma
+goza de maior segurança e de uma oferta que não pode ignorar.
+</p>
+<p>
+A conveniência desta plataforma permite que os comerciantes de de todas as origens e
+capacidades possam ligar-se. Este número diversificado de origens tornou-se uma das
+maiores vantagens do PrimeAuroraporque recebe o apoio dos melhores.
+</p>
+<div class="btn-cta btn-o">
+SAIBA MAIS
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 5.0625C6.43934 5.0625 6.1875 4.81066 6.1875 4.5C6.1875 4.18934 6.43934 3.9375 6.75 3.9375H13.5C13.8107 3.9375 14.0625 4.18934 14.0625 4.5V11.25C14.0625 11.5607 13.8107 11.8125 13.5 11.8125C13.1893 11.8125 12.9375 11.5607 12.9375 11.25V5.85799L4.89775 13.8977C4.67808 14.1174 4.32192 14.1174 4.10225 13.8977C3.88258 13.6781 3.88258 13.3219 4.10225 13.1023L12.142 5.0625H6.75Z" fill="#FF6A00"></path>
+</svg>
+</div>
+</div>
+<div class="block__img block__img-1">
+<img src="../img-1.svg" alt="" loading="lazy">
+</div>
+</div>
+</div>
+</section>
+<section class="block p0">
+<div class="container">
+<h2 class="title-2 center">
+<b class="accent">Investir em Bitcoin</b> - Porque é que faz sentido
+</h2>
+<p class="txt center">
+Em breve falaremos sobre a plataforma PrimeAurora, mas primeiro gostaríamos de
+mostrar-lhe porque é que a Bitcoin pode fazer todo o sentido como investimento. Mesmo os
+mais ignorantes sobre criptomoedas conhecem a maior Bitcoin. É provável que a maioria
+das pessoas já tenha ouvido o nome antes.
+</p>
+<div class="block__row-1">
+<div class="block__img block__img-2">
+<img src="../img-2.webp" alt="" loading="lazy">
+</div>
+<div class="block__col">
+<p>
+Lançada em 2009 como um software de código aberto, a Bitcoin foi a primeira das
+criptomoedas. Foi muito mal compreendida no início e foi lançada a um preço de
+apenas $0,00099 por Bitcoin. Considerando que o seu valor mais elevado (registado em
+novembro de 2021) foi de $ 68,789.63 por Bitcoin, que foi um roubo incrível no
+primeiros dias.
+</p>
+<p>
+Atualmente, existem mais de 25.000 outras criptomoedas no mercado, mas o que torna a
+Bitcoin tão especial é o facto de outras é que é improvável que outras criptomoedas
+melhorem o Bitcoin. Ela tem o valor mais alto de todas as outras criptomoedas e a
+maioria dos preços das outras criptomoedas seguem o valor da Bitcoin.
+</p>
+<p>
+A Bitcoin tem agora um estatuto icónico na comunidade das criptomoedas e recebe bons
+apoios para garantir a sua força.
+</p>
+</div>
+</div>
+<p>
+Agora, queremos dar-lhe a imagem completa porque as criptomoedas, incluindo o Bitcoin,
+podem ser um mercado volátil. Muitas vezes ouve-se falar de picos repentinos e quedas
+sem aviso prévio. No entanto, esta volatilidade é o que permite que você ganhe dinheiro
+com Bitcoin. Só queríamos garantir que você entenda o risco antes de entrar nele.
+</p>
+<p>
+Todas as transacções têm os seus riscos e isto inclui a Bitcoin. A chave para sucesso é
+minimizar o seu risco e trabalhar dentro de parâmetros parâmetros.
+</p>
+</div>
+</section>
+<section class="block">
+<div class="container">
+<h2 class="title-2 center">Porquê negociar com <b class="accent"> PrimeAurora?</b></h2>
+<p>
+Sempre que escolhe uma plataforma de negociação, quer saber que o seu dinheiro foi
+colocado num local seguro e protegido que continuará a crescer com o tempo. Não se pode
+subestimar o valor de uma plataforma que protege o seu dinheiro. O PrimeAuroraprocura
+proteger o seu Bitcoin, mas também o ajudará a fazer transacções eficientes e
+simplificar o processo tanto quanto possível para tornar a plataforma mais mais simples
+do que outras.
+</p>
+<div class="block__line">
+<div class="icon icon-big">
+<img src="../icon-3.svg" alt="" loading="lazy">
+</div>
+<div class="block__body">
+<h3 class="block__title">Plataforma segura</h3>
+<p>
+Poderá estar a perguntar-se que medidas tomamos para manter o seu dinheiro seguro.
+No PrimeAurora, a segurança continua a ser uma das prioridades. Utilizamos as
+melhores e mais recentes práticas de segurança para garantir que o seu investimento
+permanece seguro. A nossa plataforma segue um protocolo definido e utiliza
+encriptação para proteger os seus dados dos cibercriminosos.
+</p>
+<p>
+Além disso, também pode optar por utilizar a autenticação de dois factores
+autenticação para garantir que apenas utilizadores autorizados possam aceder à sua
+conta.
+</p>
+</div>
+</div>
+<div class="block__line">
+<div class="icon icon-big">
+<img src="../icon-1.svg" alt="" loading="lazy">
+</div>
+<div class="block__body">
+<h3 class="block__title">Racionalização do processo</h3>
+<p>
+Negoceie facilmente na nossa plataforma como lhe convier. Tudo no PrimeAurorafoi
+concebido para uma navegação intuitiva da plataforma. Analise os dados de negociação
+combinados para ver quando fazer as transacções mais rentáveis. Todos estes dados de
+negociação dados de negociação podem ser encontrados a partir de vários de
+alimentação colocados numa única interface escalável
+</p>
+</div>
+</div>
+<div class="block__line">
+<div class="icon icon-big">
+<img src="../icon-2.svg" alt="" loading="lazy">
+</div>
+<div class="block__body">
+<h3 class="block__title">
+Como é que o PrimeAuroramelhora a sua experiência de negociação?
+</h3>
+<p>
+Depois de se registar na plataforma, o PrimeAuroracoloca-o em contacto com um
+gestor de conta experiente. Este gestor pode configurá-lo e ajudá-lo com as suas
+transacções. Qualquer pessoa que tenha tentado negociar em algumas plataformas
+compreende a dificuldade potencial porque pode ser inundado com dados.
+</p>
+<p>
+Em vez de fazer transacções, acaba paralisado por analisar demasiado tudo o que é
+dado. O PrimeAuroraainda lhe dá muitos dados, mas torna a visualização muito mais
+simples. Em vez de em vez de o bombardear com dados inúteis que o deixarão confuso,
+o PrimeAurorapega nos dados essenciais e coloca-os e coloca-os à frente onde os
+pode usar para fazer rentáveis.
+</p>
+<p>
+É mais fácil ver o panorama geral com as informações fornecidas pela pela
+plataforma. Todas as transacções apresentam atividade ao vivo num simples de seguir,
+para que possa torná-la rentável. A facilidade de monitorização e controlo ajuda
+definitivamente esta plataforma a a destacar-se.
+</p>
+</div>
+</div>
+</div>
+</section>
+<div class="holder">
+<div class="holder__content">
+<div class="holder__container">
+<div class="holder__body">
+<h2 class="title-2">
+Mantenha o seu ouvido no pulso da <br>Mercado de criptografia
+</h2>
+<p class="txt">
+Qualquer operador sério necessita de uma plataforma de negociação robusta e
+inclusiva. robusta e abrangente. Pode obter tudo aqui, incluindo gráficos, análise e
+relatórios que foram concebidos para proporcionar aos negociadores de todos os
+níveis com uma experiência de negociação sem complicações. Esta plataforma de
+negociação plataforma de negociação permite que você mantenha seu ouvido no pulso do
+mercado de criptografia para que você possa torná-lo lucrativo.
+</p>
+<p>
+O PrimeAuroraoferece-lhe uma extensa lista de serviços e ferramentas de negociação
+ferramentas a milhares de pessoas em todo o mundo. Os criadores nesta plataforma
+projetada com o objetivo de permitir que você gerenciar, rastrear e monitorar seus
+ativos criptográficos. Sempre que você faz uma negociação, ver os preços mais
+actualizados pode significar a diferença entre ter lucro numa venda e ir embora com
+uma grande perda. Você precisa das informações mais atualizadas para tomar tomar
+boas decisões sobre o mercado. O PrimeAuroraajuda-o a orientar os seus movimentos
+através de fluxos de dados rápidos e precisos que o tornarão que o tornarão um
+melhor negociador.
+</p>
+<p>
+Sempre que fizer uma transação, ver os preços mais actualizados pode pode significar
+a diferença entre ter lucro numa venda e sair uma venda e sair com uma grande perda.
+Precisa da informação mais actualizada para tomar boas decisões sobre o mercado. O
+PrimeAuroraajuda-o a a orientar os seus movimentos através de fluxos de dados
+rápidos e precisos que o tornarão num melhor negociador.
+</p>
+</div>
+</div>
+</div>
+<div class="holder__image">
+<img src="../img-3.webp" alt="" loading="lazy">
+</div>
+</div>
+<section class="block">
+<div class="container">
+<h2 class="title-2 center">
+Começar a utilizar o PrimeAurora-
+<b class="accent"> Como começar</b>
+</h2>
+<p>
+Decidiu que quer começar a trabalhar no PrimeAurora, mas mas talvez não saiba como
+começar. Como é que faz isso? Fique atento enquanto destacamos cada um dos passos
+individuais para começar a fazer transacções.
+</p>
+<div class="block__wrap">
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-4.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">1. Registar uma conta</h3>
+</div>
+<div class="block__body">
+<p>
+Em primeiro lugar, tem de registar uma conta no PrimeAurora. Vá para a página de
+login e olhe abaixo para o que diz, "Registar uma nova conta". Clique na ligação
+para aceder à página seguinte onde lhe será pedido que preencha os seus dados
+básicos, tais como nome, número de telefone e endereço de e-mail.
+</p>
+<p>
+Depois de preencher todos os dados, prima o botão enviar. O utilizador terá de
+aguardar que um gestor de conta o contacte.
+</p>
+</div>
+</div>
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-5.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">3. Efetuar um depósito</h3>
+</div>
+<div class="block__body">
+<p>
+Antes de poder começar a negociar, tem de efetuar um depósito para financiar a sua
+conta. Deve depositar um mínimo de $250 antes de poder começar a negociar na
+plataforma. começar a negociar a sério na plataforma. Pode fazer um depósito com
+cartão de débito ou cartão de crédito. Na maioria das vezes Quando faz um
+depósito, o dinheiro aparece na sua conta imediatamente. conta imediatamente. Não
+precisa de esperar vários dias como acontece com outras plataformas de negociação.
+</p>
+<p>
+Para efetuar o depósito, vá à página da sua conta. Clique na parte parte que diz
+"Efetuar um depósito". De seguida, escolherá a sua opção de pagamento. Introduza o
+montante que gostaria de depositar. Preencha os dados solicitados e completar os
+requisitos de segurança. Finalmente, confirmará o seu pagamento e irá efetuar o
+investimento.
+</p>
+<p>
+Também pode optar por efetuar uma transferência bancária, o que pode fazer sentido
+para depósitos maiores. Lembre-se que uma transferência bancária pode demorar mais
+tempo, dependendo do banco e do país em que reside.
+</p>
+<p>
+Sempre que efetuar um depósito, o PrimeAuroranão cobrará qualquer taxa do seu
+depósito. Todos os fundos que colocar na sua conta ficarão sob o seu controlo. A
+plataforma tenta assegurar que fazer um depósito seja tão simples e direto quanto
+possível
+</p>
+</div>
+</div>
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-7.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">2. Verificar se há um e-mail de confirmação</h3>
+</div>
+<div class="block__body">
+<p>
+Depois de preencher os seus dados, terá de esperar por um correio eletrónico de
+confirmação. O e-mail confirma os seus dados. Nós marcaremos de seguida uma
+reunião entre si e um dos nossos gestores de conta. Isto permitir-lhe-á efetuar
+transacções sem problemas.
+</p>
+<p>
+Durante a reunião com o gestor de conta, encorajamo-lo a a fazer o maior número
+possível de perguntas para conhecer a plataforma, para que possa navegar nela
+facilmente.
+</p>
+<p>
+Oferecemos-lhe duas opções quando cria uma conta no Everix Borda. Pode efetuar as
+suas próprias transacções ou pode utilizar um gestor de conta. O gestor de conta é
+especialmente útil para principiantes que podem não conhecer o mercado. Fazer
+transacções é bom se tiver experiência ou gostar de fazer transacções por si
+próprio.
+</p>
+</div>
+</div>
+<div class="block__hold">
+<div class="block__header">
+<div class="icon icon-big">
+<img src="../icon-6.svg" alt="" loading="lazy">
+</div>
+<h3 class="block__title">4. Não se sente confiante? Não há problema</h3>
+</div>
+<div class="block__body">
+<p>
+Digamos que não se sente confiante para investir em Bitcoin devido à sua novidade.
+Não quer perder dinheiro. Em vez de outras plataformas que o forçariam a aprender
+a cometer erros difíceis e dispendiosos, o PrimeAuroraoferece um simulador que
+lhe permite testar a sua estratégia de negociação.
+</p>
+<p>
+Testa a estratégia com dados do mercado real para que possa aprender a negociar de
+forma lucrativa sem perder uma fortuna na curva de aprendizagem. O simulador
+permite-lhe cometer erros à medida que e, especialmente se for um principiante,
+vai cometer erros.
+</p>
+<p>
+Como é que o simulador funciona? Funciona da mesma forma que o mercado real, mas
+elimina todo o risco de perder dinheiro. Continua a ter as ferramentas de
+negociação, controlos e ecrãs, mas o simulador dá-lhe a oportunidade de
+desenvolver estratégias viáveis antes de antes de começar a lidar com dinheiro
+real.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="benefit">
+<div class="container">
+<h2 class="title-2 center"> <b class="accent">Benefícios</b> de PrimeAurora</h2>
+<p class="center">
+O PrimeAuroraoferece alguns benefícios que gostaríamos de destacar que gostaríamos de
+destacar para as pessoas que procuram uma boa plataforma de de Bitcoin.<br>
+Algumas das razões para investir connosco são:
+</p>
+<div class="benefit__row">
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-8.svg" alt="">
+</div>
+<p>Sem taxas de negociação ou taxas de plataforma</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-9.svg" alt="">
+</div>
+<p>Interface navegável</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-10.svg" alt="">
+</div>
+<p>Oferta aberta à maioria dos países (exceto EUA)</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-6.svg" alt="">
+</div>
+<p>O simulador permite-lhe desenvolver estratégias de negociação rentáveis</p>
+</div>
+<div class="benefit__col">
+<div class="icon icon-big">
+<img src="../icon-12.svg" alt="">
+</div>
+<p>Gestores de conta especializados disponíveis</p>
+</div>
+</div>
+<p>
+O PrimeAurorasimplifica o processo de negociação e elimina muitas dos problemas que
+pode encontrar com outras plataformas. A plataforma de negociação foi concebida para que
+tenha a melhor visão do mercado e possa tomar decisões informadas enquanto negoceia.
+</p>
+</div>
+</section>
+<section class="faq">
+<div class="container">
+<div class="faq__row">
+<div class="faq__column">
+<h2 class="title-2">Perguntas frequentes</h2>
+<p>
+Tem algo em mente? Contacte-nos por e-mail
+<a href="/" class="accent mail-link">support@<span class="domain"></span> </a>
+</p>
+<div class="btn btn-cta">SAIBA MAIS</div>
+</div>
+<div class="faq__spoiler">
+<div data-spoilers="" data-one-spoiler="" class="spoiler spoiler-1">
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+1. Pode utilizar a plataforma do PrimeAuroragratuitamente?
+</button>
+<div class="spoiler__text">
+Ao contrário de outras plataformas que podem cobrar-lhe uma taxa para negociar,
+o PrimeAuroranão tem taxas de negociação e não cobra de registo ou taxas
+ocultas. Nem sequer precisa de depositar dinheiro para começar a negociar porque
+pode começar com o simulador para experimentar as suas estratégias de negociação
+sem perder dinheiro no processo
+</div>
+</div>
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+2. A moeda criptográfica é um bom investimento?
+</button>
+<div class="spoiler__text">
+Deve entrar nas criptomoedas com uma abordagem realista realista - todos os
+investimentos, incluindo as criptomoedas, implicam algum nível de risco. O risco
+nas criptomoedas está relacionado com a volatilidade dos activos digitais. Verá
+as criptomoedas subirem do nada e cair sem aviso prévio. Esta volatilidade é o
+que torna uma boa oportunidade de negociação se souber o que está a fazer. A
+criptografia ajuda a diversificar seu portfólio, mas o quão pesado você mas a
+intensidade com que quer investir neste mercado depende de si.
+</div>
+</div>
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+3. Como é que faço um depósito ou um levantamento?
+</button>
+<div class="spoiler__text">
+<p>
+Para efetuar um depósito, terá de colocar um mínimo de $250. O dinheiro que
+depositar estará sempre sob o seu controlo. O PrimeAurorapermite-lhe
+depositar e levantar dinheiro à sua discrição. Basta visitar o painel de
+controlo e clicar no botão o botão para "efetuar um depósito" ou "levantar
+dinheiro".
+</p>
+<p>
+Quando efectua um depósito com um cartão de débito ou de crédito deve vê-lo
+instantaneamente na sua conta. Se efetuar uma transferência bancária, pode
+demorar mais tempo, dependendo do banco e do seu país de origem. As retiradas
+no PrimeAuroraacontecem com quase a mesma facilidade. A diferença é que
+normalmente leva cerca de 24 horas para que o dinheiro seja transferido.
+</p>
+</div>
+</div>
+<div class="spoiler__item">
+<button tabindex="-1" type="button" data-spoiler="" class="spoiler__title">
+4. O PrimeAuroratem uma versão móvel?
+</button>
+<div class="spoiler__text">
+Desde que possa trabalhar com uma ligação e um browser estáveis, pode entrar no
+PrimeAuroradiretamente a partir do dispositivo móvel para fazer transacções
+enquanto está preso no escritório ou à espera da sua refeição no restaurante.
+Leve-o para onde for para não perder as melhores oportunidades!
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="points">
+<div class="container">
+<h2 class="title-2">PrimeAurora<b class="accent">Pontos-chave</b></h2>
+<table class="point">
+<tbody><tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../money.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Custo da plataforma</h3>
+</div>
+</td>
+<td>
+<p>Não há custos para criar uma conta</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../mob-desc.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Categoria de plataforma</h3>
+</div>
+</td>
+<td>
+<p>Plataforma orientada para a Web e para telemóveis</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../trading-assets.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Tipo de plataforma</h3>
+</div>
+</td>
+<td>
+<p>Activos de criptomoeda</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../fees.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Taxas associadas</h3>
+</div>
+</td>
+<td>
+<p>Sem taxas</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../payments.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Métodos de pagamento aceites</h3>
+</div>
+</td>
+<td>
+<p>Cartão de crédito, cartão de débito e transferência bancária</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="icon__row">
+<div class="icon icon-1 icon-circle">
+<img src="../countries.svg" alt="" loading="lazy">
+</div>
+<h3 class="title-3">Países disponíveis</h3>
+</div>
+</td>
+<td>
+<p>Disponível em muitos países do mundo.</p>
+</td>
+</tr>
+</tbody></table>
+</div>
+</section>
+<footer class="footer">
+<div class="footer-top">
+<div class="container">
+<div class="flex-bl">
+<a href="/" class="logo"><img src="../logo.svg" alt=""> </a>
+<ul class="nav">
+<li class="nav__link"><a href="">Página inicial</a></li>
+<li class="nav__link">
+<a href="about/">Sobre a plataforma</a>
+</li>
+<li class="nav__link">
+<a href="contact/">Página de contacto</a>
+</li>
+<li class="nav__link"><a href="login/">Iniciar sessão</a></li>
+</ul>
+</div>
+<p>
+<b>Nota importante sobre os riscos:</b><br>
+Deve-se notar que o comércio de criptomoedas pode ser um investimento altamente
+investimento altamente arriscado e deve ser abordado com cautela, especialmente
+durante períodos de extrema volatilidade. Os dados sugerem que cerca de 70% dos dos
+investidores perderão dinheiro em algum momento. No entanto, o mercado mercado também
+pode ser bastante lucrativo com as transacções certas.
+</p>
+<p>
+Tenha em atenção que o PrimeAurora, para além de quaisquer outros nomes comerciais
+usados nesta plataforma, são apenas para comerciais. Certifique-se de que lê os Termos
+e Condições cuidadosamente, uma vez que estes fornecerão tudo o que precisa de saber
+sobre o nosso funcionamento.
+</p>
+<p>
+Para além disso, a FCA emitiu uma política que proíbe a divulgação de materiais de
+marketing relacionados com a distribuição de CFDs e outros produtos financeiros em
+criptomoedas. No entanto, isto é apenas dirigido a residentes no Reino Unido.
+</p>
+<p>
+Relativamente às suas informações pessoais, o utilizador autoriza-nos a partilhar os
+seus dados pessoais com os terceiros necessários. Isto é principalmente relacionado
+com entidades que prestam serviços de negociação em de acordo com a nossa Política de
+Privacidade e Termos e Condições.
+</p>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="container">
+<div class="flex-bl">
+<ul class="nav">
+<li class="nav__link">
+<a href="/policy/">Política de privacidade</a>
+</li>
+<li class="nav__link">
+<a href="/terms/">Termos e condições</a>
+</li>
+</ul>
+<div class="copyright">
+Copyrights © 2024 Todos os direitos reservados por
+<span> PrimeAurora</span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="../intlTelInput.min.js"></script>
+<script>
+          var loaderWrapper = document.querySelector('.form__wrapper-loader');
+    if (loaderWrapper) {
+      loaderWrapper.classList.add('loader');
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      const input = document.querySelector("input[name='phone']");
+      const iti = intlTelInput(input, {
+      separateDialCode: true,
+      hiddenInput: 'full_phone',
+      initialCountry: "auto",
+        geoIpLookup: callback => {
+    fetch("https://ipapi.co/json")
+      .then(res => res.json())
+                .then(data => {
+    loaderWrapper.classList.remove('loader');
+      	    callback(data.country_code);
+      	              window.ip = data.ip
+          window.localStorage.setItem('country', data.country_code)
+          document.getElementById('ip').value = data.ip
+          document.getElementById('country').value = data.country_code
+          // document.getElementById('area_code').value = data.country_calling_code
+          })
+      .catch(() => callback("us"));
+  },
+autoPlaceholder: 'aggressive',
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+      });
+
+        $('#phone').on('countrychange', function() {
+        	$('#prefix').val($('.iti__selected-dial-code')[0].innerText)
+        	$('#country').val(iti.getSelectedCountryData().iso2.toUpperCase())
+    	})
+    	
+      const inputs = document.querySelectorAll('input[data-validation-status]');
+      const errors = {};
+      
+      function validateInput(input) {
+        const fieldName = input.getAttribute('name');
+        const value = input.value;
+        const errorDiv = document.querySelector(`div[data-for-error='${fieldName}']`);
+        const checkIcon = document.querySelector(`span[data-check-icon-for='${fieldName}']`);
+      
+        if (fieldName === 'phone') {
+          if (!iti.isValidNumber()) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+            } else if (fieldName === 'email') {
+        if (!/\S+@\S+\.[A-Za-z]{2,}/.test(value)) {
+          errors[fieldName] = true;
+          input.setAttribute('data-error-status', 'active');
+          input.classList.add('failed-input');
+          input.classList.remove('valid-input');
+          checkIcon.style.display = 'none';
+        } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        } else {
+          if (value.length < 2) {
+            errors[fieldName] = true;
+            input.setAttribute('data-error-status', 'active');
+            input.classList.add('failed-input');
+            input.classList.remove('valid-input');
+            checkIcon.style.display = 'none';
+          } else {
+            errors[fieldName] = false;
+            input.setAttribute('data-error-status', 'inactive');
+            input.classList.add('valid-input');
+            input.classList.remove('failed-input');
+            checkIcon.style.display = 'inline-block';
+          }
+        }
+      
+        input.classList.remove('active-input', 'passed-input');
+        errorDiv.style.display = 'none';
+      
+        if (errors[fieldName]) {
+          input.classList.add('active-input');
+          errorDiv.style.display = 'block';
+        } else {
+          input.classList.add('passed-input');
+        }
+      }
+      
+      inputs.forEach(input => {
+        input.addEventListener('input', () => {
+          input.classList.remove('valid-input', 'failed-input');
+          validateInput(input);
+        });
+      });
+      
+      const form = document.querySelector('form');
+      
+      form.addEventListener('submit', function (event) {
+      
+        // Виконайте валідацію для всіх полів вводу
+        inputs.forEach(input => validateInput(input));
+      
+        const hasErrors = Object.values(errors).some(error => error);
+      
+        if (hasErrors) {
+        event.preventDefault();
+          // Якщо є помилки, змініть стилі невалідних інпутів після надсилання форми
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            if (errors[fieldName]) {
+              input.classList.add('failed-input');
+            }
+          });
+        } else {
+          // Якщо немає помилок, відправте форму
+      
+          // Виводим Loader SVG
+          var loaderWrapper = document.querySelector('.form__wrapper-loader');
+          if (loaderWrapper) {
+            loaderWrapper.classList.add('loader');
+          }
+      
+          const url = '../order.php';
+          const formData = new FormData();
+          const countryCode = iti.getSelectedCountryData().dialCode;
+      
+          inputs.forEach(input => {
+            const fieldName = input.getAttribute('name');
+            const value = input.value;
+            formData.append(fieldName, value);
+          });
+      
+			formData.append('area_code', `+${countryCode}`);
+			
+			
+			formData.append('ip', window.ip ?? window.localStorage.getItem('ip'));
+			formData.append('country', iti.getSelectedCountryData().iso2.toUpperCase());
+			formData.append('lang', window.localStorage.getItem('lang'));
+			let full_p = document.getElementsByName('full_phone')
+			formData.append('full_phone', full_p[0].value)
+      
+          const xhr = new XMLHttpRequest();
+          // xhr.open('POST', url, true);
+      
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+              const res = JSON.parse(xhr.responseText);
+              const url = res.extras ? res.extras.redirect.url : null;
+      
+              if (url) {
+                                window.location.href = url;
+
+              } else if (window.localStorage.getItem('al') !== null) {
+
+                  window.location.href = window.localStorage.getItem('al');
+                  window.localStorage.removeItem('al');
+
+              } else {
+      
+                // Відключаємо Loader SVG
+                 var loaderWrapper = document.querySelector('.form__wrapper-loader');
+                  if (loaderWrapper) {
+                    loaderWrapper.classList.remove('loader');
+                  }
+      
+                // Вивід API Error
+                var ApiError = document.querySelector('.api-error');
+                  if (ApiError) {
+                    ApiError.classList.add('loader');
+                  }
+      
+                // Находим всі елементи input на сторінці
+                var inputElements = document.querySelectorAll('input');
+                // Перебираєм елементи і ваидаляєм клас "valid-input"
+                inputElements.forEach(function(inputElement) {
+                  inputElement.classList.remove('valid-input');
+                });
+      
+                // Находим всі елементи з класом "check-icon"
+                var checkIcons = document.querySelectorAll('.check-icon');
+      
+                // Перебираєм найдені елементи та видаляєм атрибут "style"
+                checkIcons.forEach(function(checkIcon) {
+                  checkIcon.removeAttribute('style');
+                });
+      
+                // Очистка форми
+                var form = document.querySelector('.form-sender');
+                form.reset();
+              }
+            }
+          };
+      
+          xhr.send(formData);
+        }
+      });
+      });
+      </script>
+<script src="../main.js"></script>
+
+
+</body></html>
