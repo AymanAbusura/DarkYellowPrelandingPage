@@ -1,27 +1,26 @@
 .montserrat-bold {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .montserrat-extrabold {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .poppins-regular {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 .poppins-medium {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .poppins {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 
 .bg-video {
     position: absolute;
@@ -70,10 +69,101 @@
     height: 30px;
 }
 
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 80px;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.content {
+    max-width: 600px;
+    align-self: end;
+}
+
+.join-btn {
+    background: #f3eb22;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+.new-users {
+    font-size: 20px;
+    color: #fff;
+}
+
+.welcome-title {
+    font-size: 65px;
+    margin: 5px 0;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.highlight {
+    color: #f3eb22;
+}
+
+.description {
+    font-size: 13px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.stats {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stat-block h2 {
+    font-size: 48px;
+    text-align: right;
+    margin: 0;
+    color: #fff;
+}
+
+.label {
+    color: #f3eb22;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: right;
+}
+
+.stat-description {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: right;
+}
+
+hr.custom-line {
+  border: none;
+  height: 2px;
+  width: 40px;
+  background-color: #f3eb22;
+  align-self: flex-end;
+}
+
+
 /* FOOTER */
 .nav1 {
     background: transparent;
-    padding: 10px 40px 10px 0px;
+    gap: 90px;
+    justify-content: flex-end!important;
 }
 
 .nav1 li a:hover {
@@ -95,6 +185,14 @@
     border: 1px solid white;
     max-height: 300px;
     overflow-y: auto;
+}
+
+.important {
+    color: #f3eb22;
+}
+
+.footer-bottom .flex-bl {
+    justify-content: flex-end;
 }
 
 .copyright {
