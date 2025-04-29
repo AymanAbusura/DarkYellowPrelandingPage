@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464 492" width="464" height="492">
+	<title>search</title>
+	<style>
+		.s0 { fill: none;stroke: #f3eb22;stroke-miterlimit:10;stroke-width: 62.8 } 
+		.s1 { fill: #f3eb22 } 
+	</style>
+	<g>
+		<g id="_Слой_1">
+			<path fill-rule="evenodd" class="s0" d="m191.4 346.8c-84.9 0-153.6-68.7-153.6-153.6 0-84.9 68.7-153.6 153.6-153.6 84.9 0 153.6 68.7 153.6 153.6 0 84.9-68.7 153.6-153.6 153.6z"/>
+			<path fill-rule="evenodd" class="s1" d="m280.7 307.6l0.1-0.1c13.2-13.2 34.6-13.2 47.8 0l116.9 117c13.2 13.2 13.2 34.6 0 47.8v0.1c-13.2 13.2-34.6 13.2-47.8 0l-117-117c-13.2-13.2-13.2-34.6 0-47.8z"/>
+		</g>
+	</g>
+</svg>
