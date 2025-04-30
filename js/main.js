@@ -30,7 +30,7 @@ window.onload = function() {;
 
     setupToggle('toggle', 'submenu', '300px');
     setupToggle('mobile-toggle', 'submenu', '300px');
-    setupToggle('toggle-1', 'submenu1', '200px');
+    setupToggle('toggle-1', 'submenu1', '110px');
 
     setupToggle('toggle');
     setupToggle('mobile-toggle');
