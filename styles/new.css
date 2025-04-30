@@ -167,6 +167,90 @@ hr.custom-line {
     align-self: flex-end;
 }
 
+/* CONTACT SECTION */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    padding: 30px;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+hr.custom-line-title {
+    border: none;
+    height: 2px;
+    margin-bottom: 20px;
+    width: 80px;
+    background-color: #f3eb22;
+    align-self: flex-end;
+}
+
+.contact-form-title {
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.form-description {
+    color: #f3eb22;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_form label {
+    color: #fff;
+}
+
+.contact_form input {
+    background-color: #3c3d3f;
+    border: none;
+    border-radius: 0!important;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    min-width: unset;
+    height: 50px;
+    min-height: 50px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.contact_form button {
+    border-radius: 0;
+}
+
+.send-button {
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.send-button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.contact-section .block__img {
+    align-self: center;
+}
 
 /* FOOTER */
 .footer-content {
@@ -397,6 +481,20 @@ hr.custom-line {
         margin: 0 0 0 auto;
     }
 
+    /* CONTACT SECTION */
+    .contact-section {
+        justify-content: flex-start;
+    }
+
+    .contact-form {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .contact-section .block__img {
+        display: none;
+    }
+
     /* FOOTER SECTION */
     .footer-content {
         justify-content: center;
@@ -426,6 +524,11 @@ hr.custom-line {
 
     .label, .stat-description {
         font-size: 10px;
+    }
+
+    /* CONTACT SECTION */
+    .contact-form-title {
+        font-size: 40px;
     }
 
     /* FOOTER SECTION */
