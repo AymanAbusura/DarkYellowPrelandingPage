@@ -1190,8 +1190,7 @@ table p+p{
 		margin: 0;
 		max-width: 350px;
 		width: 100%;
-/*        align-self: flex-start;*/
-        margin-left: -26%;
+        margin-left: -43%;
 }
 	.faq__spoiler{
 		width:calc(100% - 380px)
@@ -1227,11 +1226,11 @@ table p+p{
 		gap:25px
 }
 }
-@media only screen and (min-width:1083.98px){
+/*@media only screen and (min-width:1083.98px){
 	.faq__column{
 		margin:0
 }
-}
+}*/
 @media only screen and (min-width:1300px){
 	.card{
 		width:calc(50% - 80px)

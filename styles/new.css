@@ -366,6 +366,15 @@ hr.custom-line-title {
 }
 
 @media (width: 1024px) {
+    /* FAQ SECTION */
+    .faq__spoiler {
+        width: 80%!important;
+    }
+
+    .faq__column {
+        margin-left: 0;
+    }
+
     /* FOOTER */
     .footer-nav .nav1 {
         gap: 5px;
