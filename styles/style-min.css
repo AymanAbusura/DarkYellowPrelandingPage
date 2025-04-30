@@ -93,12 +93,12 @@ section.p0{
 	padding-block: 30px 0;
 }
 
-.title-2{
+.title-2 {
 	margin-bottom:20px;
 	font-size:24px;
 	line-height:1.2;
 	font-weight:600;
-	color:#1b3942
+	color: #fff;
 }
 .title-2 span,.title-form span,img{
 	display:block
@@ -614,26 +614,32 @@ textarea{
 	margin:20px 0 0;
 	max-width:320px
 }
-.faq{
-	background:#f7f8f8
-}
-.faq__row{
+
+/*.faq {
+	background: url("../assets/faq_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+.faq__row {
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
+	flex-direction: column;
+	align-items: center;
 	-ms-flex-wrap:wrap;
 	flex-wrap:wrap;
 	-webkit-box-pack:justify;
 	-ms-flex-pack:justify;
 	justify-content:space-between;
-	gap:30px
+	gap: 10px;
 }
-.faq__column p{
+/*.faq__column p{
 	color:#1a1a1a;
 	font-size:18px;
 	font-weight:500;
 	line-height:1.7
-}
+}*/
 .faq__column .btn{
 	margin-left:0
 }
@@ -644,22 +650,27 @@ textarea{
 .spoiler{
 	display:grid
 }
-.spoiler__item{
-	border-bottom:1px solid rgba(213,217,237,.2)
+.spoiler__item {
 }
-.spoiler__title{
+.spoiler__title {
 	position:relative;
-	margin-bottom:10px;
+	margin-bottom: 30px;
 	padding:17px 50px 15px 30px;
 	width:100%;
-	font-weight:700;
 	font-size:16px;
 	line-height:1.4;
 	text-align:left;
-	border-radius:10px;
-	background:#fff;
-	color:#1a1a1a
+	border-radius: 0;
+	background: #000000;
+	color: #f3eb22;
 }
+
+.spoiler__title._active {
+    background: #b8b8b8;
+    color: #000;
+}
+
+
 .spoiler__title::before{
 	content:"";
 	position:absolute;
@@ -668,17 +679,22 @@ textarea{
 	display:block;
 	width:24px;
 	height:24px;
-	background-image:url("../assets/icon-open.svg");
+	background-image: url("../assets/plus.svg");
 	background-size:contain;
 	background-repeat:no-repeat;
 	-webkit-transition:all .3s ease-in;
-	transition:all .3s ease-in
+	transition: all .3s ease-in;
 }
 .spoiler__title._active::before{
-	background-image:url("")
+	background-image: url("../assets/minus.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all .3s ease-in;
 }
 .spoiler__text{
-	padding:0 15px 15px 20px
+	font-size: 20px;
+	padding: 0 15px 15px 20px;
+	color: #fff;
 }
 .points .title-2{
 	text-align:center
@@ -1170,9 +1186,12 @@ table p+p{
 		max-width:max-content;
 		margin:20px auto 0
 }
-	.faq__column{
-		margin:0;
-		max-width:350px
+	.faq__column {
+		margin: 0;
+		max-width: 350px;
+		width: 100%;
+/*        align-self: flex-start;*/
+        margin-left: -26%;
 }
 	.faq__spoiler{
 		width:calc(100% - 380px)
@@ -1295,7 +1314,7 @@ form {
 }
 input[type="text"],input[type="email"],input[type="tel"],button {
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 0;
 	padding: 13px 20px;
 	font-size: 16px;
 	box-sizing: border-box;

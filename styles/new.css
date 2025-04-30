@@ -18,6 +18,11 @@
     font-weight: 500;
 }
 
+.poppins-semibold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
 .poppins {
     font-family: 'Poppins', sans-serif;
 }
@@ -167,6 +172,24 @@ hr.custom-line {
     align-self: flex-end;
 }
 
+/* FAQ SECTION */
+.faq {
+    background: url(../assets/faq_bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.faq-description {
+    color: #f3eb22;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
 /* CONTACT SECTION */
 .contact-section {
     display: flex;
@@ -253,6 +276,12 @@ hr.custom-line-title {
 }
 
 /* FOOTER */
+.footer {
+    background: url("../assets/logo_bg.svg");
+    background-repeat: no-repeat;
+    background-position: right 40%;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -337,8 +366,13 @@ hr.custom-line-title {
 }
 
 @media (width: 1024px) {
+    /* FOOTER */
     .footer-nav .nav1 {
         gap: 5px;
+    }
+
+    .footer {
+        background-size: contain;
     }
 }
 
@@ -481,6 +515,11 @@ hr.custom-line-title {
         margin: 0 0 0 auto;
     }
 
+    /* FAQ SECTION */
+    .faq__column {
+        align-self: flex-start;
+    }
+
     /* CONTACT SECTION */
     .contact-section {
         justify-content: flex-start;
@@ -496,6 +535,10 @@ hr.custom-line-title {
     }
 
     /* FOOTER SECTION */
+    .footer {
+        background-size: contain;
+    }
+
     .footer-content {
         justify-content: center;
     }
