@@ -448,6 +448,105 @@ hr.custom-line {
     opacity: 0.5;
 }
 
+/* YOUTUBE VIDEO SECTION */
+.video__section {
+    position: relative;
+}
+
+.video-wrapper {
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 4;
+}
+
+.video-thumbnail {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+.video-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+    border-radius: 12px;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.video-wrapper.no-overlay::after {
+    opacity: 0;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    position: absolute;
+    bottom: 10%;
+    z-index: 5;
+}
+
+.video__section__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.play__img {
+    width: 20%;
+    position: relative;
+    right: 17%;
+    top: 35px;
+}
+
+.video__main__description {
+    margin-top: 10px;
+}
+
+.video__main__description h3 {
+    font-size: 20px;
+    color: #f3eb22;
+    text-transform: uppercase;
+}
+
+.video__main__description .subtitle {
+    font-size: 40px;
+}
+
+.video__section__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.video__description {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
 /* GETTING SECTION */
 .getting-started-section {
     background: url("../assets/getting_bg.png");
@@ -805,6 +904,11 @@ hr.custom-line-title {
         left: 0;
     }
 
+    /* YOUTUBE VIDEO SECTION */
+    .play__img {
+        width: 50%;
+    }
+
     /* FAQ SECTION */
     .faq__spoiler {
         width: 80%!important;
@@ -981,6 +1085,19 @@ hr.custom-line-title {
         margin-bottom: 0;
     }
 
+    /* YOUTUBE VIDEO SECTION */
+    .play__img {
+        width: 50%;
+    }
+
+    .video__main__description .subtitle {
+        font-size: 30px;
+    }
+
+    .video__description {
+        font-size: 17px;
+    }
+
     /* USE OF MODERN INVESTMENT STRATEGIES SECTION */
     .investment-section {
         background-position: center center;
@@ -1098,6 +1215,11 @@ hr.custom-line-title {
 
     .getting-card {
         width: 100%;
+    }
+
+    /* YOUTUBE VIDEO SECTION */
+    .video__main {
+        flex-direction: column;
     }
 
     /* CONTACT SECTION */
