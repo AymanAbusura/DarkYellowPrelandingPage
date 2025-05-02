@@ -117,14 +117,13 @@ section.p0{
 .txt{
 	color:#1b3942;
 	font-size:16px;
-	font-weight:500;
 	line-height:1.5
 }
-.accent{
-	color:#fd8704
+.accent {
+	color: #f3eb22;
 }
-.accent-1{
-	color:#01c9ee
+.accent-1 {
+	color: #01c9ee;
 }
 a{
 	-webkit-transition:all .3s ease-in-out;
