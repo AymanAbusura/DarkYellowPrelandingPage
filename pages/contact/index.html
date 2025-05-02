@@ -14,114 +14,71 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="container flex-bl">
-			<a href="/" class="logo">
-			<img src="../../assets/logo.svg" alt=""></a>
-			<div class="language">
-			<a id="toggle" class="menu__link">
-			<div class="iti__flag iti__gb"></div>
-			En
-			</a>
-			<ul class="submenu">
-			<li class="subitem">
-			<a href="/">
-			<div class="iti__flag iti__gb"></div>
-			en
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/dk/">
-			<div class="iti__flag iti__dk"></div>
-			Dk
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/de/">
-			<div class="iti__flag iti__de"></div>
-			De
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/cz/">
-			<div class="iti__flag iti__cz"></div>
-			CZ
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/es/">
-			<div class="iti__flag iti__es"></div>
-			es
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/fi/">
-			<div class="iti__flag iti__fi"></div>
-			fi
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/fr/">
-			<div class="iti__flag iti__fr"></div>
-			Fr
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/it/">
-			<div class="iti__flag iti__it"></div>
-			IT
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/hu/">
-			<div class="iti__flag iti__hu"></div>
-			HU
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/nl/">
-			<div class="iti__flag iti__nl"></div>
-			NL
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/no/">
-			<div class="iti__flag iti__no"></div>
-			NO
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/pl/">
-			<div class="iti__flag iti__pl"></div>
-			PL
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/pt/">
-			<div class="iti__flag iti__pt"></div>
-			PT
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/ru/">
-			<div class="iti__flag iti__ru"></div>
-			RU
-			</a>
-			</li>
-			<li class="subitem">
-			<a href="../../languages/se/">
-			<div class="iti__flag iti__se"></div>
-			SE
-			</a>
-			</li>
-			</ul>
-			</div>
-			<nav class="menu__nav">
-			<a class="menu__link @@link-1" href="../../pages/about/">About The Platform</a>
-			<a class="menu__link @@link-2" href="../../pages/contact/">Contact Page</a>
-			<a class="menu__link @@link-3" href="../../pages/login/">Login</a>
-			</nav>
-			</div>
-		</header>
+	        <!-- DESKTOP NAVIGATION -->
+	        <a href="/" class="logo">
+	            <img src="../../assets/logo.svg" alt="">
+	        </a>
+	        <div class="right-section desktop">
+	            <nav class="nav desktop-nav">
+	                <a class="menu__link poppins-regular" href="/">Home</a>
+	                <a class="menu__link poppins-regular" href="../../pages/login/">Login</a>
+	                <a class="menu__link poppins-regular" href="../../pages/about/">About Us</a>
+	            </nav>
+	            <div class="language">
+	                <a id="toggle" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
+	                <ul class="submenu" style="max-height: 300px; overflow-y: auto;">
+	                    <li class="subitem"><a href="../../languages/dk/"><div class="iti__flag iti__dk"></div>Dk</a></li>
+	                    <li class="subitem"><a href="../../languages/de/"><div class="iti__flag iti__de"></div>De</a></li>
+	                    <li class="subitem"><a href="../../languages/cz/"><div class="iti__flag iti__cz"></div>CZ</a></li>
+	                    <li class="subitem"><a href="../../languages/es/"><div class="iti__flag iti__es"></div>Es</a></li>
+	                    <li class="subitem"><a href="../../languages/fi/"><div class="iti__flag iti__fi"></div>fi</a></li>
+	                    <li class="subitem"><a href="../../languages/fr/"><div class="iti__flag iti__fr"></div>Fr</a></li>
+	                    <li class="subitem"><a href="../../languages/gr/"><div class="iti__flag iti__gr"></div>Gr</a></li>
+	                    <li class="subitem"><a href="../../languages/it/"><div class="iti__flag iti__it"></div>IT</a></li>
+	                    <li class="subitem"><a href="../../languages/hu/"><div class="iti__flag iti__hu"></div>HU</a></li>
+	                    <li class="subitem"><a href="../../languages/nl/"><div class="iti__flag iti__nl"></div>NL</a></li>
+	                    <li class="subitem"><a href="../../languages/no/"><div class="iti__flag iti__no"></div>NO</a></li>
+	                    <li class="subitem"><a href="../../languages/pl/"><div class="iti__flag iti__pl"></div>PL</a></li>
+	                    <li class="subitem"><a href="../../languages/pt/"><div class="iti__flag iti__pt"></div>PT</a></li>
+	                    <li class="subitem"><a href="../../languages/ru/"><div class="iti__flag iti__ru"></div>RU</a></li>
+	                    <li class="subitem"><a href="../../languages/se/"><div class="iti__flag iti__se"></div>SE</a></li>
+	                </ul>
+	            </div>
+	            <div><img src="../../assets/search.svg" class="search"></div>
+	        </div>
+
+	        <!-- Mobile Navigation -->
+	        <div class="mobile-menu">
+	            <div class="language languages__mobile">
+	                <a id="mobile-toggle" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
+	                <ul class="submenu" style="max-height: 300px; overflow-y: auto;">
+	                    <li class="subitem"><a href="../../languages/dk/"><div class="iti__flag iti__dk"></div>Dk</a></li>
+	                    <li class="subitem"><a href="../../languages/de/"><div class="iti__flag iti__de"></div>De</a></li>
+	                    <li class="subitem"><a href="../../languages/cz/"><div class="iti__flag iti__cz"></div>CZ</a></li>
+	                    <li class="subitem"><a href="../../languages/es/"><div class="iti__flag iti__es"></div>Es</a></li>
+	                    <li class="subitem"><a href="../../languages/fi/"><div class="iti__flag iti__fi"></div>fi</a></li>
+	                    <li class="subitem"><a href="../../languages/fr/"><div class="iti__flag iti__fr"></div>Fr</a></li>
+	                    <li class="subitem"><a href="../../languages/gr/"><div class="iti__flag iti__gr"></div>Gr</a></li>
+	                    <li class="subitem"><a href="../../languages/it/"><div class="iti__flag iti__it"></div>IT</a></li>
+	                    <li class="subitem"><a href="../../languages/hu/"><div class="iti__flag iti__hu"></div>HU</a></li>
+	                    <li class="subitem"><a href="../../languages/nl/"><div class="iti__flag iti__nl"></div>NL</a></li>
+	                    <li class="subitem"><a href="../../languages/no/"><div class="iti__flag iti__no"></div>NO</a></li>
+	                    <li class="subitem"><a href="../../languages/pl/"><div class="iti__flag iti__pl"></div>PL</a></li>
+	                    <li class="subitem"><a href="../../languages/pt/"><div class="iti__flag iti__pt"></div>PT</a></li>
+	                    <li class="subitem"><a href="../../languages/ru/"><div class="iti__flag iti__ru"></div>RU</a></li>
+	                    <li class="subitem"><a href="../../languages/se/"><div class="iti__flag iti__se"></div>SE</a></li>
+	                </ul>
+	            </div>
+	            <div id="burger-menu"><span></span></div>
+	            <div id="menu">
+	                <ul>
+	                  <li><a href="/">Home</a></li>
+	                  <li><a href="../../pages/login/">Login</a></li>
+	                  <li><a href="../../pages/about/">About Us</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </header>
 		
 		<main>
 			<section class="contact">
@@ -149,67 +106,57 @@
 			</section>
 		</main>
 
-	<footer class="footer">
-		<div class="footer-top">
-		<div class="container">
-		<div class="flex-bl">
-		<a href="/" class="logo"><img src="../../assets/logo.svg" alt="">
-		</a>
-		<ul class="nav">
-		<li class="nav__link"><a href="/">Home</a></li>
-		<li class="nav__link"><a href="../../pages/about/">About The Platform</a></li>
-		<li class="nav__link"><a href="../../pages/contact/">Contact Page</a></li>
-		<li class="nav__link"><a href="../../pages/login/">Login</a></li>
-		</ul>
-		</div>
-		<p>
-		<b>Important Risk Note:</b><br>
-		It should be noted that cryptocurrency trading can be a highly risky investment and should be approached
-		with
-		caution,
-		especially during times of extreme volatility. Data suggests that roughly 70% of investors will lose money
-		at
-		some point
-		in time. However, the market can also be quite lucrative with the right trades.
-		</p>
-		<p>
-		Keep in mind that SecuroomAi, in addition to any other commercial names used on this platform, are for
-		commercial
-		purposes only. Make sure to read the Terms and Conditions thoroughly, as that will provide everything you
-		need
-		to know
-		about how we operate.
-		</p>
-		<p>
-		In addition to that, a policy has been issued by the FCA that prohibits the dissemination of marketing
-		materials
-		related
-		to the distribution of CFDs and other financial products on cryptocurrencies. However, this is only
-		addressed to
-		residents in the UK.
-		</p>
-		<p>
-		Regarding your personal information, you consent to allow us to share your personal details with necessary
-		third
-		parties. This is primarily related to entities that provide trading services in line with our Privacy Policy
-		and
-		Terms
-		and Conditions.
-		</p>
-		</div>
-		</div>
-		<div class="footer-bottom">
-		<div class="container">
-		<div class="flex-bl">
-		<ul class="nav">
-		<li class="nav__link"><a href="../../pages/policy/">Privacy Policy</a></li>
-		<li class="nav__link"><a href="../../pages/terms/">Terms &amp; Conditions</a></li>
-		</ul>
-		<div class="copyright">Copyrights © 2025 All Rights Reserved by <span> SecuroomAi</span></div>
-		</div>
-		</div>
-		</div>
-		</footer>
+		<footer class="footer">
+	        <div class="footer-top">
+	            <div class="container">
+	                <div class="flex-bl">
+	                    <a href="/" class="logo"><img src="../../assets/logo.svg" alt=""></a>
+	                </div>
+	                <div class="footer-content">
+	                    <p class="risk-note">
+	                        <span class="important">Important Risk Note:</span>
+	                        It should be noted that investments can be very risky and should be approached with caution, especially during periods of extreme volatility. According to data, about 70% of investors lose money at one point or another. However, the market can also be very profitable with the right trades. Remember that SecuroomAi, and any other commercial names used on this platform, are for commercial purposes only. Make sure you read the Terms and Conditions carefully, as they contain everything you need to know about how we operate. With regard to your personal information, you agree that we may share your personal information with necessary third parties. This primarily applies to organizations that provide trading services in accordance with our <a href="../../pages/policy/">Privacy Policy</a> and <a href="../../pages/terms/">Terms and Conditions</a>.
+	                    </p>
+	                    <div class="footer-nav">
+	                        <ul class="nav nav1">
+	                            <li class="nav__link"><a href="/">Home</a></li>
+	                            <li class="nav__link"><a href="../../pages/login/">Login</a></li>
+	                            <li class="nav__link"><a href="../../pages/about/">About Us</a></li>
+	                            <li class="nav__link"><a href="../../pages/contact/">Contact Us</a></li>
+	                        </ul>
+	                        <div class="language language1">
+	                            <a id="toggle-1" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
+	                            <ul class="submenu1">
+	                                <li class="subitem"><a href="../../languages/dk/"><div class="iti__flag iti__dk"></div>Dk</a></li>
+	                                <li class="subitem"><a href="../../languages/de/"><div class="iti__flag iti__de"></div>De</a></li>
+	                                <li class="subitem"><a href="../../languages/cz/"><div class="iti__flag iti__cz"></div>CZ</a></li>
+	                                <li class="subitem"><a href="../../languages/es/"><div class="iti__flag iti__es"></div>Es</a></li>
+	                                <li class="subitem"><a href="../../languages/fi/"><div class="iti__flag iti__fi"></div>fi</a></li>
+	                                <li class="subitem"><a href="../../languages/fr/"><div class="iti__flag iti__fr"></div>Fr</a></li>
+	                                <li class="subitem"><a href="../../languages/gr/"><div class="iti__flag iti__gr"></div>Gr</a></li>
+	                                <li class="subitem"><a href="../../languages/it/"><div class="iti__flag iti__it"></div>IT</a></li>
+	                                <li class="subitem"><a href="../../languages/hu/"><div class="iti__flag iti__hu"></div>HU</a></li>
+	                                <li class="subitem"><a href="../../languages/nl/"><div class="iti__flag iti__nl"></div>NL</a></li>
+	                                <li class="subitem"><a href="../../languages/no/"><div class="iti__flag iti__no"></div>NO</a></li>
+	                                <li class="subitem"><a href="../../languages/pl/"><div class="iti__flag iti__pl"></div>PL</a></li>
+	                                <li class="subitem"><a href="../../languages/pt/"><div class="iti__flag iti__pt"></div>PT</a></li>
+	                                <li class="subitem"><a href="../../languages/ru/"><div class="iti__flag iti__ru"></div>RU</a></li>
+	                                <li class="subitem"><a href="../../languages/se/"><div class="iti__flag iti__se"></div>SE</a></li>
+	                            </ul>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div class="footer-bottom">
+	            <div class="container">
+	                <div class="flex-bl">
+	                    <div class="copyright">© Copyright <span class="poppins-medium">SecuroomAi</span>, All Rights Reserved</div>
+	                </div>
+	            </div>
+	        </div>
+    	</footer>
 	</div>
 
 <script src="../../js/scripts.js"></script>
