@@ -878,7 +878,7 @@ hr.custom-line-title {
 }
 
 /* LOGIN PAGE */
-.banner__login {
+.banner__pages {
     min-height: 40vh;
     position: relative;
     display: flex;
@@ -916,7 +916,7 @@ hr.custom-line-title {
     background: linear-gradient(to bottom, rgb(0 0 0 / 60%), rgb(0 0 0));
 }
 
-.title__banner__login {
+.title__banner__pages {
     position: relative;
     z-index: 2;
     color: #fff;
